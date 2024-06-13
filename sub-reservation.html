@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+        <title>제주특별자치도 문화예술진흥원</title>
+        <link href="source/css/boxicons.css" rel="stylesheet">
+        <link href="source/css/swiper-bundle.css" rel="stylesheet">
+        <link href="source/css/style.css" rel="stylesheet">
+
+        <!-- javaScript -->
+        <script src="source/js/jquery-3.5.1.min.js"></script>
+        <script src="source/js/swiper-bundle.js"></script>
+        <script src="source/js/common.js"></script>
+
+    </head>
+
+    <body class="sub">
+        <!-- S:skip_navi -->
+        <div class="skip_navi">
+            <a class="sr-only sr-only-focusable" href="#header">메뉴 바로가기</a>
+            <a class="sr-only sr-only-focusable" href="#content">본문 바로가기</a>
+            <a class="sr-only sr-only-focusable" href="#footer">푸터 바로가기</a>
+        </div>
+        <!-- E:skip_navi -->
+        <!-- S:header -->
+        <header id="header">
+            <div class="container">
+                <h1><a href="/"><span>제주특별자치도 문화예술진흥원</span> 공연예매</a></h1>
+
+
+                <div class="tools">
+                    <a class="login" href="">로그인</a>
+                </div>
+    
+
+            </div>
+        </header>
+        <!-- E:header -->
+        
+        <!-- S:main_menu -->
+        <nav id="main-menu" class="menu">
+
+            <a class="on" href="">공연/전시</a>
+            <a href="">공지사항</a>
+            <a href="">마이페이지</a>
+
+             
+        </nav>
+        <!-- E:main_menu -->
+
+
+
+        <!-- S:mainContent -->
+        <div id="content" class="sub">
+
+
+            <section class="sub-reservation">
+                <div class="container">
+
+
+                    <div class="head">
+
+                        <p class="image">
+                            <img src="source/images/temp01.png" alt="">
+                        </p>
+
+                        <h4>
+                            <small>
+                                <대관공연>
+                            </small>
+                                『2022년 제6회 국제합창축제 앤 심포지엄』
+                        </h4>
+
+                        <ul>
+                            <li>
+                                <strong class="sr-only">날짜</strong>2022-03-26 ~ 2022-03-27</li>
+                            <li>
+                                <strong class="sr-only">시간</strong>19:00 / 21:00</li>
+                            <li>
+                                <strong class="sr-only">장소</strong>대극장</li>
+                        </ul>
+                    </div>
+
+                    <div class="select-option">
+
+                        <div class="date on"> <!-- on 클래스명으로 펼치고 접기 -->
+                            <h5>날짜선택</h5>
+
+                            <div class="select-outline">
+                                <select>
+                                    <option>관람일자를 선택하세요.</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="time">
+                            <h5>회차선택</h5>
+
+                            <input id="time01" name="time" type="radio">
+                            <label for="time01" class="off">
+                                <p><del>19:00</del></p>
+
+                                <span>선택불가(매진)</span>
+                            </label>
+
+                            <input id="time02" name="time" type="radio">
+                            <label for="time02" class="on">
+                                <p><strong>21:00</strong> (2회차)</p>
+
+                                <span>예약가능 : <strong>22</strong>석</span>
+                            </label>
+                        </div>
+
+                        <div class="seat on">
+                            <h5>좌석선택</h5>
+
+
+                            <div class="map-check">
+
+                                <div class="legend">
+                                    <h6>
+                                        <span>대극장</span>
+                                        
+                                        <small>원하시는 좌석을 선택해주세요.</small>
+                                    </h6>
+
+                                    <div>
+                                        <!-- <div>
+                                            <p class="seat-r"><span></span> R석</p>
+                                            <p class="seat-s"><span></span> S석</p>
+                                            <p class="seat-n"><span></span> N석</p>
+                                        </div> -->
+                                        <div>
+                                            <p class="temp"><span></span> 방석좌석</p>
+                                            <p class="seat-disabled"><span></span> 장애인석</p>
+                                            <!-- <p class="seat-distancing"><span></span> 사회적거리두기</p> -->
+                                            <p class="seat-pregnant"><span></span> 임산부석</p>
+                                            <p class="close"><span></span> 선택불가</p>
+                                        </div>
+                                        <div>
+                                            <p>R석: 22,000원</p>
+                                            <p>S석: 22,000원</p>
+                                            <p>N석: 9,000원</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- 
+                                    p 클래스명
+                                    선택불가 : close
+                                    R석 : seat-r
+                                    S석 : seat-s
+                                    N석 : seat-n
+                                    사회적거리두기 : seat-distancing
+                                    장애인석 : seat-disabled
+
+                                    선택좌석 : checked
+                                 -->
+
+
+                                 <h7>1층</h7>
+                                <div class="outline seat-1f">
+
+                                    <div class="area areaA">
+                                        <div class="temp1">
+                                            <p id="a-temp1-1" class="temp"><button>1층 A구역 방석좌석 1열 1번좌석</button></p>
+                                            <p id="a-temp1-2" class="temp"><button>1층 A구역 방석좌석 1열 2번좌석</button></p>
+                                            <p id="a-temp1-3" class="temp"><button>1층 A구역 방석좌석 1열 3번좌석</button></p>
+                                            <p id="a-temp1-4" class="temp"><button>1층 A구역 방석좌석 1열 4번좌석</button></p>
+                                            <p id="a-temp1-5" class="temp"><button>1층 A구역 방석좌석 1열 5번좌석</button></p>
+                                            <p id="a-temp1-6" class="temp"><button>1층 A구역 방석좌석 1열 6번좌석</button></p>
+                                            <p id="a-temp1-7" class="temp"><button>1층 A구역 방석좌석 1열 7번좌석</button></p>
+                                            <p id="a-temp1-8" class="temp"><button>1층 A구역 방석좌석 1열 8번좌석</button></p>
+                                            <p id="a-temp1-9" class="temp"><button>1층 A구역 방석좌석 1열 9번좌석</button></p>
+                                            <p id="a-temp1-10" class="temp"><button>1층 A구역 방석좌석 1열 10번좌석</button></p>
+                                        </div>
+                                        <div class="temp2">
+                                            <p id="a-temp2-1" class="temp"><button>1층 A구역 방석좌석 2열 1번좌석</button></p>
+                                            <p id="a-temp2-2" class="temp"><button>1층 A구역 방석좌석 2열 2번좌석</button></p>
+                                            <p id="a-temp2-3" class="temp"><button>1층 A구역 방석좌석 2열 3번좌석</button></p>
+                                            <p id="a-temp2-4" class="temp"><button>1층 A구역 방석좌석 2열 4번좌석</button></p>
+                                            <p id="a-temp2-5" class="temp"><button>1층 A구역 방석좌석 2열 5번좌석</button></p>
+                                            <p id="a-temp2-6" class="temp"><button>1층 A구역 방석좌석 2열 6번좌석</button></p>
+                                            <p id="a-temp2-7" class="temp"><button>1층 A구역 방석좌석 2열 7번좌석</button></p>
+                                            <p id="a-temp2-8" class="temp"><button>1층 A구역 방석좌석 2열 8번좌석</button></p>
+                                            <p id="a-temp2-9" class="temp"><button>1층 A구역 방석좌석 2열 9번좌석</button></p>
+                                            <p id="a-temp2-10" class="temp"><button>1층 A구역 방석좌석 2열 10번좌석</button></p>
+                                        </div>
+
+
+
+                                        <div>
+                                            <p class="label margin"><span>A구역</span></p>
+                                        </div>
+    
+    
+    
+                                        <div class="line1">
+                                            <p><span></span></p>
+                                            <p><span></span></p>
+                                            
+                                            <p id="a-line1-3" class="close"><button tabindex="-1">1층 A구역 1열 3번좌석</button></p>
+                                            <p id="a-line1-4" class="seat checked"><button>1층 A구역 1열 4번좌석</button></p>
+                                            <p id="a-line1-5" class="close"><button tabindex="-1">1층 A구역 1열 5번좌석</button></p>
+                                            <p id="a-line1-6" class="seat checked"><button>1층 A구역 1열 6번좌석</button></p>
+                                            <p id="a-line1-7" class="close"><button tabindex="-1">1층 A구역 1열 7번좌석</button></p>
+                                            <p id="a-line1-8" class="seat"><button>1층 A구역 1열 8번좌석</button></p>
+                                            <p id="a-line1-9" class="close"><button tabindex="-1">1층 A구역 1열 9번좌석</button></p>
+                                            <p id="a-line1-10" class="seat"><button>1층 A구역 1열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line2">
+                                            <p><span></span></p>
+    
+                                            <p id="a-line2-2" class="close"><button tabindex="-1">1층 A구역 2열 2번좌석</button></p>
+                                            <p id="a-line2-3" class="seat"><button>1층 A구역 2열 3번좌석</button></p>
+                                            <p id="a-line2-4" class="close"><button tabindex="-1">1층 A구역 2열 4번좌석</button></p>
+                                            <p id="a-line2-5" class="seat"><button>1층 A구역 2열 5번좌석</button></p>
+                                            <p id="a-line2-6" class="close"><button tabindex="-1">1층 A구역 2열 6번좌석</button></p>
+                                            <p id="a-line2-7" class="seat"><button>1층 A구역 2열 7번좌석</button></p>
+                                            <p id="a-line2-8" class="close"><button tabindex="-1">1층 A구역 2열 8번좌석</button></p>
+                                            <p id="a-line2-9" class="seat"><button>1층 A구역 2열 9번좌석</button></p>
+                                            <p id="a-line2-10" class="close"><button tabindex="-1">1층 A구역 2열 10번좌석</button></p>
+    
+                                        </div>
+                                        <div class="line3">
+                                            <p id="a-line3-1" class="close"><button tabindex="-1">1층 A구역 3열 1번좌석</button></p>
+                                            <p id="a-line3-2" class="seat checked"><button>1층 A구역 3열 2번좌석</button></p>
+                                            <p id="a-line3-3" class="close"><button tabindex="-1">1층 A구역 3열 3번좌석</button></p>
+                                            <p id="a-line3-4" class="seat"><button>1층 A구역 3열 4번좌석</button></p>
+                                            <p id="a-line3-5" class="close"><button tabindex="-1">1층 A구역 3열 5번좌석</button></p>
+                                            <p id="a-line3-6" class="seat"><button>1층 A구역 3열 6번좌석</button></p>
+                                            <p id="a-line3-7" class="close"><button tabindex="-1">1층 A구역 3열 7번좌석</button></p>
+                                            <p id="a-line3-8" class="seat"><button>1층 A구역 3열 8번좌석</button></p>
+                                            <p id="a-line3-9" class="close"><button tabindex="-1">1층 A구역 3열 9번좌석</button></p>
+                                            <p id="a-line3-10" class="seat"><button>1층 A구역 3열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line4">
+                                            <p id="a-line4-1" class="seat"><button>1층 A구역 4열 1번좌석</button></p>
+                                            <p id="a-line4-2" class="close"><button tabindex="-1">1층 A구역 4열 2번좌석</button></p>
+                                            <p id="a-line4-3" class="seat"><button>1층 A구역 4열 3번좌석</button></p>
+                                            <p id="a-line4-4" class="seat-pregnant"><button tabindex="-1">1층 A구역 4열 4번좌석</button></p>
+                                            <p id="a-line4-5" class="seat"><button>1층 A구역 4열 5번좌석</button></p>
+                                            <p id="a-line4-6" class="close"><button tabindex="-1">1층 A구역 4열 6번좌석</button></p>
+                                            <p id="a-line4-7" class="seat"><button>1층 A구역 4열 7번좌석</button></p>
+                                            <p id="a-line4-8" class="close"><button tabindex="-1">1층 A구역 4열 8번좌석</button></p>
+                                            <p id="a-line4-9" class="seat"><button>1층 A구역 4열 9번좌석</button></p>
+                                            <p id="a-line4-10" class="close"><button tabindex="-1">1층 A구역 4열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line5">
+                                            <p id="a-line5-1" class="close"><button tabindex="-1">1층 A구역 5열 1번좌석</button></p>
+                                            <p id="a-line5-2" class="seat"><button>1층 A구역 5열 2번좌석</button></p>
+                                            <p id="a-line5-3" class="close"><button tabindex="-1">1층 A구역 5열 3번좌석</button></p>
+                                            <p id="a-line5-4" class="seat"><button>1층 A구역 5열 4번좌석</button></p>
+                                            <p id="a-line5-5" class="close"><button tabindex="-1">1층 A구역 5열 5번좌석</button></p>
+                                            <p id="a-line5-6" class="close"><button tabindex="-1">1층 A구역 5열 6번좌석</button></p>
+                                            <p id="a-line5-7" class="close"><button tabindex="-1">1층 A구역 5열 7번좌석</button></p>
+                                            <p id="a-line5-8" class="seat"><button>1층 A구역 5열 8번좌석</button></p>
+                                            <p id="a-line5-9" class="close"><button tabindex="-1">1층 A구역 5열 9번좌석</button></p>
+                                            <p id="a-line5-10" class="seat"><button>1층 A구역 5열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line6">
+                                            <p id="a-line6-1" class="seat-disabled"><button>1층 A구역 6열 1번좌석</button></p>
+                                            <p id="a-line6-2" class="close"><button tabindex="-1">1층 A구역 6열 2번좌석</button></p>
+                                            <p id="a-line6-3" class="seat"><button>1층 A구역 6열 3번좌석</button></p>
+                                            <p id="a-line6-4" class="seat-pregnant"><button tabindex="-1">1층 A구역 6열 4번좌석</button></p>
+                                            <p id="a-line6-5" class="seat"><button>1층 A구역 6열 5번좌석</button></p>
+                                            <p id="a-line6-6" class="close"><button tabindex="-1">1층 A구역 6열 6번좌석</button></p>
+                                            <p id="a-line6-7" class="close"><button tabindex="-1">1층 A구역 6열 7번좌석</button></p>
+                                            <p id="a-line6-8" class="close"><button tabindex="-1">1층 A구역 6열 8번좌석</button></p>
+                                            <p id="a-line6-9" class="close"><button tabindex="-1">1층 A구역 6열 9번좌석</button></p>
+                                            <p id="a-line6-10" class="close"><button tabindex="-1">1층 A구역 6열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line7">
+                                            <p id="a-line7-1" class="seat-disabled"><button>1층 A구역 7열 1번좌석</button></p>
+                                            <p id="a-line7-2" class="close"><button tabindex="-1">1층 A구역 7열 2번좌석</button></p>
+                                            <p id="a-line7-3" class="seat"><button>1층 A구역 7열 3번좌석</button></p>
+                                            <p id="a-line7-4" class="seat-pregnant"><button tabindex="-1">1층 A구역 7열 4번좌석</button></p>
+                                            <p id="a-line7-5" class="seat"><button>1층 A구역 7열 5번좌석</button></p>
+                                            <p id="a-line7-6" class="close"><button tabindex="-1">1층 A구역 7열 6번좌석</button></p>
+                                            <p id="a-line7-7" class="close"><button tabindex="-1">1층 A구역 7열 7번좌석</button></p>
+                                            <p id="a-line7-8" class="close"><button tabindex="-1">1층 A구역 7열 8번좌석</button></p>
+                                            <p id="a-line7-9" class="close"><button tabindex="-1">1층 A구역 7열 9번좌석</button></p>
+                                            <p id="a-line7-10" class="close"><button tabindex="-1">1층 A구역 7열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line8">
+                                            <p id="a-line8-1" class="seat-disabled"><button>1층 A구역 8열 1번좌석</button></p>
+                                            <p id="a-line8-2" class="close"><button tabindex="-1">1층 A구역 8열 2번좌석</button></p>
+                                            <p id="a-line8-3" class="seat"><button>1층 A구역 8열 3번좌석</button></p>
+                                            <p id="a-line8-4" class="seat-pregnant"><button tabindex="-1">1층 A구역 8열 4번좌석</button></p>
+                                            <p id="a-line8-5" class="seat"><button>1층 A구역 8열 5번좌석</button></p>
+                                            <p id="a-line8-6" class="close"><button tabindex="-1">1층 A구역 8열 6번좌석</button></p>
+                                            <p id="a-line8-7" class="close"><button tabindex="-1">1층 A구역 8열 7번좌석</button></p>
+                                            <p id="a-line8-8" class="close"><button tabindex="-1">1층 A구역 8열 8번좌석</button></p>
+                                            <p id="a-line8-9" class="close"><button tabindex="-1">1층 A구역 8열 9번좌석</button></p>
+                                            <p id="a-line8-10" class="close"><button tabindex="-1">1층 A구역 8열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line9">
+                                            <p id="a-line9-1" class="seat-disabled"><button>1층 A구역 9열 1번좌석</button></p>
+                                            <p id="a-line9-2" class="close"><button tabindex="-1">1층 A구역 9열 2번좌석</button></p>
+                                            <p id="a-line9-3" class="seat"><button>1층 A구역 9열 3번좌석</button></p>
+                                            <p id="a-line9-4" class="seat-distancing"><button tabindex="-1">1층 A구역 9열 4번좌석</button></p>
+                                            <p id="a-line9-5" class="seat"><button>1층 A구역 9열 5번좌석</button></p>
+                                            <p id="a-line9-6" class="close"><button tabindex="-1">1층 A구역 9열 6번좌석</button></p>
+                                            <p id="a-line9-7" class="close"><button tabindex="-1">1층 A구역 9열 7번좌석</button></p>
+                                            <p id="a-line9-8" class="close"><button tabindex="-1">1층 A구역 9열 8번좌석</button></p>
+                                            <p id="a-line9-9" class="close"><button tabindex="-1">1층 A구역 9열 9번좌석</button></p>
+                                            <p id="a-line9-10" class="close"><button tabindex="-1">1층 A구역 9열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line10">
+                                            <p id="a-line10-1" class="seat-disabled"><button>1층 A구역 10열 1번좌석</button></p>
+                                            <p id="a-line10-2" class="close"><button tabindex="-1">1층 A구역 10열 2번좌석</button></p>
+                                            <p id="a-line10-3" class="seat"><button>1층 A구역 10열 3번좌석</button></p>
+                                            <p id="a-line10-4" class="seat-distancing"><button tabindex="-1">1층 A구역 10열 4번좌석</button></p>
+                                            <p id="a-line10-5" class="seat"><button>1층 A구역 10열 5번좌석</button></p>
+                                            <p id="a-line10-6" class="close"><button tabindex="-1">1층 A구역 10열 6번좌석</button></p>
+                                            <p id="a-line10-7" class="close"><button tabindex="-1">1층 A구역 10열 7번좌석</button></p>
+                                            <p id="a-line10-8" class="close"><button tabindex="-1">1층 A구역 10열 8번좌석</button></p>
+                                            <p id="a-line10-9" class="close"><button tabindex="-1">1층 A구역 10열 9번좌석</button></p>
+                                            <p id="a-line10-10" class="close"><button tabindex="-1">1층 A구역 10열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line11">
+                                            <p id="a-line11-1" class="seat-disabled x2"><button>1층 A구역 11열 1번좌석</button></p>
+                                            <p id="a-line11-3" class="seat"><button>1층 A구역 11열 3번좌석</button></p>
+                                            <p id="a-line11-4" class="seat-distancing"><button tabindex="-1">1층 A구역 11열 4번좌석</button></p>
+                                            <p id="a-line11-5" class="seat"><button>1층 A구역 11열 5번좌석</button></p>
+                                            <p id="a-line11-6" class="close"><button tabindex="-1">1층 A구역 11열 6번좌석</button></p>
+                                            <p id="a-line11-7" class="close"><button tabindex="-1">1층 A구역 11열 7번좌석</button></p>
+                                            <p id="a-line11-8" class="close"><button tabindex="-1">1층 A구역 11열 8번좌석</button></p>
+                                            <p id="a-line11-9" class="close"><button tabindex="-1">1층 A구역 11열 9번좌석</button></p>
+                                            <p id="a-line11-10" class="close"><button tabindex="-1">1층 A구역 11열 10번좌석</button></p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="area label">
+                                        <div>
+                                            <p><span>방석</span></p>
+                                            <p><span>방석</span></p>
+                                            <p class="margin"><span></span></p>
+                                            <p><span>1</span></p>
+                                            <p><span>2</span></p>
+                                            <p><span>3</span></p>
+                                            <p><span>4</span></p>
+                                            <p><span>5</span></p>
+                                            <p><span>6</span></p>
+                                            <p><span>7</span></p>
+                                            <p><span>8</span></p>
+                                            <p><span>9</span></p>
+                                            <p><span>10</span></p>
+                                            <p><span>11</span></p>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="area areaB">
+                                        <div class="temp1">
+                                            <p id="b-temp1-1" class="temp"><button>1층 B구역 방석좌석 1열 1번좌석</button></p>
+                                            <p id="b-temp1-2" class="temp"><button>1층 B구역 방석좌석 1열 2번좌석</button></p>
+                                            <p id="b-temp1-3" class="temp"><button>1층 B구역 방석좌석 1열 3번좌석</button></p>
+                                            <p id="b-temp1-4" class="temp"><button>1층 B구역 방석좌석 1열 4번좌석</button></p>
+                                            <p id="b-temp1-5" class="temp"><button>1층 B구역 방석좌석 1열 5번좌석</button></p>
+                                            <p id="b-temp1-6" class="temp"><button>1층 B구역 방석좌석 1열 6번좌석</button></p>
+                                            <p id="b-temp1-7" class="temp"><button>1층 B구역 방석좌석 1열 7번좌석</button></p>
+                                            <p id="b-temp1-8" class="temp"><button>1층 B구역 방석좌석 1열 8번좌석</button></p>
+                                            <p id="b-temp1-9" class="temp"><button>1층 B구역 방석좌석 1열 9번좌석</button></p>
+                                            <p id="b-temp1-10" class="temp"><button>1층 B구역 방석좌석 1열 10번좌석</button></p>
+                                            <p id="b-temp1-11" class="temp"><button>1층 B구역 방석좌석 1열 11번좌석</button></p>
+                                            <p id="b-temp1-12" class="temp"><button>1층 B구역 방석좌석 1열 12번좌석</button></p>
+                                        </div>
+                                        <div class="temp2">
+                                            <p id="b-temp2-1" class="temp"><button>1층 B구역 방석좌석 2열 1번좌석</button></p>
+                                            <p id="b-temp2-2" class="temp"><button>1층 B구역 방석좌석 2열 2번좌석</button></p>
+                                            <p id="b-temp2-3" class="temp"><button>1층 B구역 방석좌석 2열 3번좌석</button></p>
+                                            <p id="b-temp2-4" class="temp"><button>1층 B구역 방석좌석 2열 4번좌석</button></p>
+                                            <p id="b-temp2-5" class="temp"><button>1층 B구역 방석좌석 2열 5번좌석</button></p>
+                                            <p id="b-temp2-6" class="temp"><button>1층 B구역 방석좌석 2열 6번좌석</button></p>
+                                            <p id="b-temp2-7" class="temp"><button>1층 B구역 방석좌석 2열 7번좌석</button></p>
+                                            <p id="b-temp2-8" class="temp"><button>1층 B구역 방석좌석 2열 8번좌석</button></p>
+                                            <p id="b-temp2-9" class="temp"><button>1층 B구역 방석좌석 2열 9번좌석</button></p>
+                                            <p id="b-temp2-10" class="temp"><button>1층 B구역 방석좌석 2열 10번좌석</button></p>
+                                            <p id="b-temp1-11" class="temp"><button>1층 B구역 방석좌석 2열 11번좌석</button></p>
+                                            <p id="b-temp1-12" class="temp"><button>1층 B구역 방석좌석 2열 12번좌석</button></p>
+                                        </div>
+
+                                        <div>
+                                            <p class="label margin"><span>B구역</span></p>
+                                        </div>
+
+    
+    
+    
+                                        <div class="line1">
+                                            <p id="line1-1" class="close"><button tabindex="-1">1층 B구역 1열 1번좌석</button></p>
+                                            <p id="line1-2" class="close"><button tabindex="-1">1층 B구역 1열 2번좌석</button></p>
+                                            <p id="line1-3" class="close"><button tabindex="-1">1층 B구역 1열 3번좌석</button></p>
+                                            <p id="line1-4" class="seat checked"><button>1층 B구역 1열 4번좌석</button></p>
+                                            <p id="line1-5" class="close"><button tabindex="-1">1층 B구역 1열 5번좌석</button></p>
+                                            <p id="line1-6" class="seat checked"><button>1층 B구역 1열 6번좌석</button></p>
+                                            <p id="line1-7" class="close"><button tabindex="-1">1층 B구역 1열 7번좌석</button></p>
+                                            <p id="line1-8" class="seat"><button>1층 B구역 1열 8번좌석</button></p>
+                                            <p id="line1-9" class="close"><button tabindex="-1">1층 B구역 1열 9번좌석</button></p>
+                                            <p id="line1-10" class="seat"><button>1층 B구역 1열 10번좌석</button></p>
+                                            <p id="line1-11" class="seat"><button>1층 B구역 1열 11번좌석</button></p>
+                                            <p id="line1-12" class="seat"><button>1층 B구역 1열 12번좌석</button></p>
+                                        </div>
+                                        <div class="line2">
+                                            <p id="line2-1" class="close"><button tabindex="-1">1층 B구역 2열 1번좌석</button></p>
+                                            <p id="line2-2" class="close"><button tabindex="-1">1층 B구역 2열 2번좌석</button></p>
+                                            <p id="line2-3" class="close"><button tabindex="-1">1층 B구역 2열 3번좌석</button></p>
+                                            <p id="line2-4" class="seat checked"><button>1층 B구역 2열 4번좌석</button></p>
+                                            <p id="line2-5" class="close"><button tabindex="-1">1층 B구역 2열 5번좌석</button></p>
+                                            <p id="line2-6" class="seat checked"><button>1층 B구역 2열 6번좌석</button></p>
+                                            <p id="line2-7" class="close"><button tabindex="-1">1층 B구역 2열 7번좌석</button></p>
+                                            <p id="line2-8" class="seat"><button>1층 B구역 2열 8번좌석</button></p>
+                                            <p id="line2-9" class="close"><button tabindex="-1">1층 B구역 2열 9번좌석</button></p>
+                                            <p id="line2-10" class="seat"><button>1층 B구역 2열 10번좌석</button></p>
+                                            <p id="line2-11" class="seat"><button>1층 B구역 2열 11번좌석</button></p>
+    
+                                        </div>
+                                        <div class="line3">
+                                            <p id="line3-1" class="close"><button tabindex="-1">1층 B구역 3열 1번좌석</button></p>
+                                            <p id="line3-2" class="close"><button tabindex="-1">1층 B구역 3열 2번좌석</button></p>
+                                            <p id="line3-3" class="close"><button tabindex="-1">1층 B구역 3열 3번좌석</button></p>
+                                            <p id="line3-4" class="seat checked"><button>1층 B구역 3열 4번좌석</button></p>
+                                            <p id="line3-5" class="close"><button tabindex="-1">1층 B구역 3열 5번좌석</button></p>
+                                            <p id="line3-6" class="seat checked"><button>1층 B구역 3열 6번좌석</button></p>
+                                            <p id="line3-7" class="close"><button tabindex="-1">1층 B구역 3열 7번좌석</button></p>
+                                            <p id="line3-8" class="seat"><button>1층 B구역 3열 8번좌석</button></p>
+                                            <p id="line3-9" class="close"><button tabindex="-1">1층 B구역 3열 9번좌석</button></p>
+                                            <p id="line3-10" class="seat"><button>1층 B구역 3열 10번좌석</button></p>
+                                            <p id="line3-11" class="seat"><button>1층 B구역 3열 11번좌석</button></p>
+                                            <p id="line3-12" class="seat"><button>1층 B구역 3열 12번좌석</button></p>
+                                        </div>
+                                        <div class="line4">
+                                            <p id="line4-1" class="close"><button tabindex="-1">1층 B구역 4열 1번좌석</button></p>
+                                            <p id="line4-2" class="close"><button tabindex="-1">1층 B구역 4열 2번좌석</button></p>
+                                            <p id="line4-3" class="close"><button tabindex="-1">1층 B구역 4열 3번좌석</button></p>
+                                            <p id="line4-4" class="seat checked"><button>1층 B구역 4열 4번좌석</button></p>
+                                            <p id="line4-5" class="close"><button tabindex="-1">1층 B구역 4열 5번좌석</button></p>
+                                            <p id="line4-6" class="seat checked"><button>1층 B구역 4열 6번좌석</button></p>
+                                            <p id="line4-7" class="close"><button tabindex="-1">1층 B구역 4열 7번좌석</button></p>
+                                            <p id="line4-8" class="seat"><button>1층 B구역 4열 8번좌석</button></p>
+                                            <p id="line4-9" class="close"><button tabindex="-1">1층 B구역 4열 9번좌석</button></p>
+                                            <p id="line4-10" class="seat"><button>1층 B구역 4열 10번좌석</button></p>
+                                            <p id="line4-11" class="seat"><button>1층 B구역 4열 11번좌석</button></p>
+                                        </div>
+                                        <div class="line5">
+                                            <p id="line5-1" class="close"><button tabindex="-1">1층 B구역 5열 1번좌석</button></p>
+                                            <p id="line5-2" class="close"><button tabindex="-1">1층 B구역 5열 2번좌석</button></p>
+                                            <p id="line5-3" class="close"><button tabindex="-1">1층 B구역 5열 3번좌석</button></p>
+                                            <p id="line5-4" class="seat checked"><button>1층 B구역 5열 4번좌석</button></p>
+                                            <p id="line5-5" class="close"><button tabindex="-1">1층 B구역 5열 5번좌석</button></p>
+                                            <p id="line5-6" class="seat checked"><button>1층 B구역 5열 6번좌석</button></p>
+                                            <p id="line5-7" class="close"><button tabindex="-1">1층 B구역 5열 7번좌석</button></p>
+                                            <p id="line5-8" class="seat"><button>1층 B구역 5열 8번좌석</button></p>
+                                            <p id="line5-9" class="close"><button tabindex="-1">1층 B구역 5열 9번좌석</button></p>
+                                            <p id="line5-10" class="seat"><button>1층 B구역 5열 10번좌석</button></p>
+                                            <p id="line5-11" class="seat"><button>1층 B구역 5열 11번좌석</button></p>
+                                            <p id="line5-12" class="seat"><button>1층 B구역 5열 12번좌석</button></p>
+                                        </div>
+                                        <div class="line6">
+                                            <p id="line6-1" class="close"><button tabindex="-1">1층 B구역 6열 1번좌석</button></p>
+                                            <p id="line6-2" class="close"><button tabindex="-1">1층 B구역 6열 2번좌석</button></p>
+                                            <p id="line6-3" class="close"><button tabindex="-1">1층 B구역 6열 3번좌석</button></p>
+                                            <p id="line6-4" class="seat checked"><button>1층 B구역 6열 4번좌석</button></p>
+                                            <p id="line6-5" class="close"><button tabindex="-1">1층 B구역 6열 5번좌석</button></p>
+                                            <p id="line6-6" class="seat checked"><button>1층 B구역 6열 6번좌석</button></p>
+                                            <p id="line6-7" class="close"><button tabindex="-1">1층 B구역 6열 7번좌석</button></p>
+                                            <p id="line6-8" class="seat"><button>1층 B구역 6열 8번좌석</button></p>
+                                            <p id="line6-9" class="close"><button tabindex="-1">1층 B구역 6열 9번좌석</button></p>
+                                            <p id="line6-10" class="seat"><button>1층 B구역 6열 10번좌석</button></p>
+                                            <p id="line6-11" class="seat"><button>1층 B구역 6열 11번좌석</button></p>
+                                        </div>
+                                        <div class="line7">
+                                            <p id="line7-1" class="close"><button tabindex="-1">1층 B구역 7열 1번좌석</button></p>
+                                            <p id="line7-2" class="close"><button tabindex="-1">1층 B구역 7열 2번좌석</button></p>
+                                            <p id="line7-3" class="close"><button tabindex="-1">1층 B구역 7열 3번좌석</button></p>
+                                            <p id="line7-4" class="seat checked"><button>1층 B구역 7열 4번좌석</button></p>
+                                            <p id="line7-5" class="close"><button tabindex="-1">1층 B구역 7열 5번좌석</button></p>
+                                            <p id="line7-6" class="seat checked"><button>1층 B구역 7열 6번좌석</button></p>
+                                            <p id="line7-7" class="close"><button tabindex="-1">1층 B구역 7열 7번좌석</button></p>
+                                            <p id="line7-8" class="seat"><button>1층 B구역 7열 8번좌석</button></p>
+                                            <p id="line7-9" class="close"><button tabindex="-1">1층 B구역 7열 9번좌석</button></p>
+                                            <p id="line7-10" class="seat"><button>1층 B구역 7열 10번좌석</button></p>
+                                            <p id="line7-11" class="seat"><button>1층 B구역 7열 11번좌석</button></p>
+                                            <p id="line7-12" class="seat"><button>1층 B구역 7열 12번좌석</button></p>
+                                        </div>
+                                        <div class="line8">
+                                            <p id="line8-1" class="close"><button tabindex="-1">1층 B구역 8열 1번좌석</button></p>
+                                            <p id="line8-2" class="close"><button tabindex="-1">1층 B구역 8열 2번좌석</button></p>
+                                            <p id="line8-3" class="close"><button tabindex="-1">1층 B구역 8열 3번좌석</button></p>
+                                            <p id="line8-4" class="seat checked"><button>1층 B구역 8열 4번좌석</button></p>
+                                            <p id="line8-5" class="close"><button tabindex="-1">1층 B구역 8열 5번좌석</button></p>
+                                            <p id="line8-6" class="seat checked"><button>1층 B구역 8열 6번좌석</button></p>
+                                            <p id="line8-7" class="close"><button tabindex="-1">1층 B구역 8열 7번좌석</button></p>
+                                            <p id="line8-8" class="seat"><button>1층 B구역 8열 8번좌석</button></p>
+                                            <p id="line8-9" class="close"><button tabindex="-1">1층 B구역 8열 9번좌석</button></p>
+                                            <p id="line8-10" class="seat"><button>1층 B구역 8열 10번좌석</button></p>
+                                            <p id="line8-11" class="seat"><button>1층 B구역 8열 11번좌석</button></p>
+                                        </div>
+                                        <div class="line9">
+                                            <p id="line9-1" class="close"><button tabindex="-1">1층 B구역 9열 1번좌석</button></p>
+                                            <p id="line9-2" class="close"><button tabindex="-1">1층 B구역 9열 2번좌석</button></p>
+                                            <p id="line9-3" class="close"><button tabindex="-1">1층 B구역 9열 3번좌석</button></p>
+                                            <p id="line9-4" class="seat checked"><button>1층 B구역 9열 4번좌석</button></p>
+                                            <p id="line9-5" class="close"><button tabindex="-1">1층 B구역 9열 5번좌석</button></p>
+                                            <p id="line9-6" class="seat checked"><button>1층 B구역 9열 6번좌석</button></p>
+                                            <p id="line9-7" class="close"><button tabindex="-1">1층 B구역 9열 7번좌석</button></p>
+                                            <p id="line9-8" class="seat"><button>1층 B구역 9열 8번좌석</button></p>
+                                            <p id="line9-9" class="close"><button tabindex="-1">1층 B구역 9열 9번좌석</button></p>
+                                            <p id="line9-10" class="seat"><button>1층 B구역 9열 10번좌석</button></p>
+                                            <p id="line9-11" class="seat"><button>1층 B구역 9열 11번좌석</button></p>
+                                            <p id="line9-12" class="seat"><button>1층 B구역 9열 12번좌석</button></p>
+                                        </div>
+                                        <div class="line10">
+                                            <p id="line10-1" class="close"><button tabindex="-1">1층 B구역 10열 1번좌석</button></p>
+                                            <p id="line10-2" class="close"><button tabindex="-1">1층 B구역 10열 2번좌석</button></p>
+                                            <p id="line10-3" class="close"><button tabindex="-1">1층 B구역 10열 3번좌석</button></p>
+                                            <p id="line10-4" class="seat checked"><button>1층 B구역 10열 4번좌석</button></p>
+                                            <p id="line10-5" class="close"><button tabindex="-1">1층 B구역 10열 5번좌석</button></p>
+                                            <p id="line10-6" class="seat checked"><button>1층 B구역 10열 6번좌석</button></p>
+                                            <p id="line10-7" class="close"><button tabindex="-1">1층 B구역 10열 7번좌석</button></p>
+                                            <p id="line10-8" class="seat"><button>1층 B구역 10열 8번좌석</button></p>
+                                            <p id="line10-9" class="close"><button tabindex="-1">1층 B구역 10열 9번좌석</button></p>
+                                            <p id="line10-10" class="seat"><button>1층 B구역 10열 10번좌석</button></p>
+                                            <p id="line10-11" class="seat"><button>1층 B구역 10열 11번좌석</button></p>
+                                        </div>
+                                        <div class="line11">
+                                            <p id="line11-1" class="close"><button tabindex="-1">1층 B구역 11열 1번좌석</button></p>
+                                            <p id="line11-2" class="close"><button tabindex="-1">1층 B구역 11열 2번좌석</button></p>
+                                            <p id="line11-3" class="close"><button tabindex="-1">1층 B구역 11열 3번좌석</button></p>
+                                            <p id="line11-4" class="seat checked"><button>1층 B구역 11열 4번좌석</button></p>
+                                            <p id="line11-5" class="close"><button tabindex="-1">1층 B구역 11열 5번좌석</button></p>
+                                            <p id="line11-6" class="seat checked"><button>1층 B구역 11열 6번좌석</button></p>
+                                            <p id="line11-7" class="close"><button tabindex="-1">1층 B구역 11열 7번좌석</button></p>
+                                            <p id="line11-8" class="seat"><button>1층 B구역 11열 8번좌석</button></p>
+                                            <p id="line11-9" class="close"><button tabindex="-1">1층 B구역 11열 9번좌석</button></p>
+                                            <p id="line11-10" class="seat"><button>1층 B구역 11열 10번좌석</button></p>
+                                            <p id="line11-11" class="seat"><button>1층 B구역 11열 11번좌석</button></p>
+                                            <p id="line11-12" class="seat"><button>1층 B구역 11열 12번좌석</button></p>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="area label">
+                                        <div>
+                                            <p><span>방석</span></p>
+                                            <p><span>방석</span></p>
+                                            <p class="margin"><span></span></p>
+                                            <p><span>1</span></p>
+                                            <p><span>2</span></p>
+                                            <p><span>3</span></p>
+                                            <p><span>4</span></p>
+                                            <p><span>5</span></p>
+                                            <p><span>6</span></p>
+                                            <p><span>7</span></p>
+                                            <p><span>8</span></p>
+                                            <p><span>9</span></p>
+                                            <p><span>10</span></p>
+                                            <p><span>11</span></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="area areaC">
+                                        <div class="temp1">
+                                            <p id="a-temp1-1" class="temp"><button>1층 A구역 방석좌석 1열 1번좌석</button></p>
+                                            <p id="a-temp1-2" class="temp"><button>1층 A구역 방석좌석 1열 2번좌석</button></p>
+                                            <p id="a-temp1-3" class="temp"><button>1층 A구역 방석좌석 1열 3번좌석</button></p>
+                                            <p id="a-temp1-4" class="temp"><button>1층 A구역 방석좌석 1열 4번좌석</button></p>
+                                            <p id="a-temp1-5" class="temp"><button>1층 A구역 방석좌석 1열 5번좌석</button></p>
+                                            <p id="a-temp1-6" class="temp"><button>1층 A구역 방석좌석 1열 6번좌석</button></p>
+                                            <p id="a-temp1-7" class="temp"><button>1층 A구역 방석좌석 1열 7번좌석</button></p>
+                                            <p id="a-temp1-8" class="temp"><button>1층 A구역 방석좌석 1열 8번좌석</button></p>
+                                            <p id="a-temp1-9" class="temp"><button>1층 A구역 방석좌석 1열 9번좌석</button></p>
+                                            <p id="a-temp1-10" class="temp"><button>1층 A구역 방석좌석 1열 10번좌석</button></p>
+                                        </div>
+                                        <div class="temp2">
+                                            <p id="a-temp2-1" class="temp"><button>1층 A구역 방석좌석 2열 1번좌석</button></p>
+                                            <p id="a-temp2-2" class="temp"><button>1층 A구역 방석좌석 2열 2번좌석</button></p>
+                                            <p id="a-temp2-3" class="temp"><button>1층 A구역 방석좌석 2열 3번좌석</button></p>
+                                            <p id="a-temp2-4" class="temp"><button>1층 A구역 방석좌석 2열 4번좌석</button></p>
+                                            <p id="a-temp2-5" class="temp"><button>1층 A구역 방석좌석 2열 5번좌석</button></p>
+                                            <p id="a-temp2-6" class="temp"><button>1층 A구역 방석좌석 2열 6번좌석</button></p>
+                                            <p id="a-temp2-7" class="temp"><button>1층 A구역 방석좌석 2열 7번좌석</button></p>
+                                            <p id="a-temp2-8" class="temp"><button>1층 A구역 방석좌석 2열 8번좌석</button></p>
+                                            <p id="a-temp2-9" class="temp"><button>1층 A구역 방석좌석 2열 9번좌석</button></p>
+                                            <p id="a-temp2-10" class="temp"><button>1층 A구역 방석좌석 2열 10번좌석</button></p>
+                                        </div>
+
+
+
+                                        <div>
+                                            <p class="label margin"><span>C구역</span></p>
+                                        </div>
+    
+    
+    
+                                        <div class="line1">
+                                            <p id="a-line1-3" class="close"><button tabindex="-1">1층 A구역 1열 3번좌석</button></p>
+                                            <p id="a-line1-4" class="seat checked"><button>1층 A구역 1열 4번좌석</button></p>
+                                            <p id="a-line1-5" class="close"><button tabindex="-1">1층 A구역 1열 5번좌석</button></p>
+                                            <p id="a-line1-6" class="seat checked"><button>1층 A구역 1열 6번좌석</button></p>
+                                            <p id="a-line1-7" class="close"><button tabindex="-1">1층 A구역 1열 7번좌석</button></p>
+                                            <p id="a-line1-8" class="seat"><button>1층 A구역 1열 8번좌석</button></p>
+                                            <p id="a-line1-9" class="close"><button tabindex="-1">1층 A구역 1열 9번좌석</button></p>
+                                            <p id="a-line1-10" class="seat"><button>1층 A구역 1열 10번좌석</button></p>
+
+                                            <p><span></span></p>
+                                            <p><span></span></p>
+                                        </div>
+                                        <div class="line2">
+                                            <p id="a-line2-2" class="close"><button tabindex="-1">1층 A구역 2열 2번좌석</button></p>
+                                            <p id="a-line2-3" class="seat"><button>1층 A구역 2열 3번좌석</button></p>
+                                            <p id="a-line2-4" class="close"><button tabindex="-1">1층 A구역 2열 4번좌석</button></p>
+                                            <p id="a-line2-5" class="seat"><button>1층 A구역 2열 5번좌석</button></p>
+                                            <p id="a-line2-6" class="close"><button tabindex="-1">1층 A구역 2열 6번좌석</button></p>
+                                            <p id="a-line2-7" class="seat"><button>1층 A구역 2열 7번좌석</button></p>
+                                            <p id="a-line2-8" class="close"><button tabindex="-1">1층 A구역 2열 8번좌석</button></p>
+                                            <p id="a-line2-9" class="seat"><button>1층 A구역 2열 9번좌석</button></p>
+                                            <p id="a-line2-10" class="close"><button tabindex="-1">1층 A구역 2열 10번좌석</button></p>
+
+                                            <p><span></span></p>
+    
+                                        </div>
+                                        <div class="line3">
+                                            <p id="a-line3-1" class="close"><button tabindex="-1">1층 A구역 3열 1번좌석</button></p>
+                                            <p id="a-line3-2" class="seat checked"><button>1층 A구역 3열 2번좌석</button></p>
+                                            <p id="a-line3-3" class="close"><button tabindex="-1">1층 A구역 3열 3번좌석</button></p>
+                                            <p id="a-line3-4" class="seat"><button>1층 A구역 3열 4번좌석</button></p>
+                                            <p id="a-line3-5" class="close"><button tabindex="-1">1층 A구역 3열 5번좌석</button></p>
+                                            <p id="a-line3-6" class="seat"><button>1층 A구역 3열 6번좌석</button></p>
+                                            <p id="a-line3-7" class="close"><button tabindex="-1">1층 A구역 3열 7번좌석</button></p>
+                                            <p id="a-line3-8" class="seat"><button>1층 A구역 3열 8번좌석</button></p>
+                                            <p id="a-line3-9" class="close"><button tabindex="-1">1층 A구역 3열 9번좌석</button></p>
+                                            <p id="a-line3-10" class="seat"><button>1층 A구역 3열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line4">
+                                            <p id="a-line4-1" class="seat"><button>1층 A구역 4열 1번좌석</button></p>
+                                            <p id="a-line4-2" class="close"><button tabindex="-1">1층 A구역 4열 2번좌석</button></p>
+                                            <p id="a-line4-3" class="seat"><button>1층 A구역 4열 3번좌석</button></p>
+                                            <p id="a-line4-4" class="seat-distancing"><button tabindex="-1">1층 A구역 4열 4번좌석</button></p>
+                                            <p id="a-line4-5" class="seat"><button>1층 A구역 4열 5번좌석</button></p>
+                                            <p id="a-line4-6" class="close"><button tabindex="-1">1층 A구역 4열 6번좌석</button></p>
+                                            <p id="a-line4-7" class="seat"><button>1층 A구역 4열 7번좌석</button></p>
+                                            <p id="a-line4-8" class="close"><button tabindex="-1">1층 A구역 4열 8번좌석</button></p>
+                                            <p id="a-line4-9" class="seat"><button>1층 A구역 4열 9번좌석</button></p>
+                                            <p id="a-line4-10" class="close"><button tabindex="-1">1층 A구역 4열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line5">
+                                            <p id="a-line5-1" class="close"><button tabindex="-1">1층 A구역 5열 1번좌석</button></p>
+                                            <p id="a-line5-2" class="seat"><button>1층 A구역 5열 2번좌석</button></p>
+                                            <p id="a-line5-3" class="close"><button tabindex="-1">1층 A구역 5열 3번좌석</button></p>
+                                            <p id="a-line5-4" class="seat"><button>1층 A구역 5열 4번좌석</button></p>
+                                            <p id="a-line5-5" class="close"><button tabindex="-1">1층 A구역 5열 5번좌석</button></p>
+                                            <p id="a-line5-6" class="close"><button tabindex="-1">1층 A구역 5열 6번좌석</button></p>
+                                            <p id="a-line5-7" class="close"><button tabindex="-1">1층 A구역 5열 7번좌석</button></p>
+                                            <p id="a-line5-8" class="seat"><button>1층 A구역 5열 8번좌석</button></p>
+                                            <p id="a-line5-9" class="close"><button tabindex="-1">1층 A구역 5열 9번좌석</button></p>
+                                            <p id="a-line5-10" class="seat"><button>1층 A구역 5열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line6">
+                                            <p id="a-line6-1" class="seat-disabled"><button>1층 A구역 6열 1번좌석</button></p>
+                                            <p id="a-line6-2" class="close"><button tabindex="-1">1층 A구역 6열 2번좌석</button></p>
+                                            <p id="a-line6-3" class="seat"><button>1층 A구역 6열 3번좌석</button></p>
+                                            <p id="a-line6-4" class="seat-distancing"><button tabindex="-1">1층 A구역 6열 4번좌석</button></p>
+                                            <p id="a-line6-5" class="seat"><button>1층 A구역 6열 5번좌석</button></p>
+                                            <p id="a-line6-6" class="close"><button tabindex="-1">1층 A구역 6열 6번좌석</button></p>
+                                            <p id="a-line6-7" class="close"><button tabindex="-1">1층 A구역 6열 7번좌석</button></p>
+                                            <p id="a-line6-8" class="close"><button tabindex="-1">1층 A구역 6열 8번좌석</button></p>
+                                            <p id="a-line6-9" class="close"><button tabindex="-1">1층 A구역 6열 9번좌석</button></p>
+                                            <p id="a-line6-10" class="close"><button tabindex="-1">1층 A구역 6열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line7">
+                                            <p id="a-line7-1" class="seat-disabled"><button>1층 A구역 7열 1번좌석</button></p>
+                                            <p id="a-line7-2" class="close"><button tabindex="-1">1층 A구역 7열 2번좌석</button></p>
+                                            <p id="a-line7-3" class="seat"><button>1층 A구역 7열 3번좌석</button></p>
+                                            <p id="a-line7-4" class="seat-distancing"><button tabindex="-1">1층 A구역 7열 4번좌석</button></p>
+                                            <p id="a-line7-5" class="seat"><button>1층 A구역 7열 5번좌석</button></p>
+                                            <p id="a-line7-6" class="close"><button tabindex="-1">1층 A구역 7열 6번좌석</button></p>
+                                            <p id="a-line7-7" class="close"><button tabindex="-1">1층 A구역 7열 7번좌석</button></p>
+                                            <p id="a-line7-8" class="close"><button tabindex="-1">1층 A구역 7열 8번좌석</button></p>
+                                            <p id="a-line7-9" class="close"><button tabindex="-1">1층 A구역 7열 9번좌석</button></p>
+                                            <p id="a-line7-10" class="close"><button tabindex="-1">1층 A구역 7열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line8">
+                                            <p id="a-line8-1" class="seat-disabled"><button>1층 A구역 8열 1번좌석</button></p>
+                                            <p id="a-line8-2" class="close"><button tabindex="-1">1층 A구역 8열 2번좌석</button></p>
+                                            <p id="a-line8-3" class="seat"><button>1층 A구역 8열 3번좌석</button></p>
+                                            <p id="a-line8-4" class="seat-distancing"><button tabindex="-1">1층 A구역 8열 4번좌석</button></p>
+                                            <p id="a-line8-5" class="seat"><button>1층 A구역 8열 5번좌석</button></p>
+                                            <p id="a-line8-6" class="close"><button tabindex="-1">1층 A구역 8열 6번좌석</button></p>
+                                            <p id="a-line8-7" class="close"><button tabindex="-1">1층 A구역 8열 7번좌석</button></p>
+                                            <p id="a-line8-8" class="close"><button tabindex="-1">1층 A구역 8열 8번좌석</button></p>
+                                            <p id="a-line8-9" class="close"><button tabindex="-1">1층 A구역 8열 9번좌석</button></p>
+                                            <p id="a-line8-10" class="close"><button tabindex="-1">1층 A구역 8열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line9">
+                                            <p id="a-line9-1" class="seat-disabled"><button>1층 A구역 9열 1번좌석</button></p>
+                                            <p id="a-line9-2" class="close"><button tabindex="-1">1층 A구역 9열 2번좌석</button></p>
+                                            <p id="a-line9-3" class="seat"><button>1층 A구역 9열 3번좌석</button></p>
+                                            <p id="a-line9-4" class="seat-distancing"><button tabindex="-1">1층 A구역 9열 4번좌석</button></p>
+                                            <p id="a-line9-5" class="seat"><button>1층 A구역 9열 5번좌석</button></p>
+                                            <p id="a-line9-6" class="close"><button tabindex="-1">1층 A구역 9열 6번좌석</button></p>
+                                            <p id="a-line9-7" class="close"><button tabindex="-1">1층 A구역 9열 7번좌석</button></p>
+                                            <p id="a-line9-8" class="close"><button tabindex="-1">1층 A구역 9열 8번좌석</button></p>
+                                            <p id="a-line9-9" class="close"><button tabindex="-1">1층 A구역 9열 9번좌석</button></p>
+                                            <p id="a-line9-10" class="close"><button tabindex="-1">1층 A구역 9열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line10">
+                                            <p id="a-line10-1" class="seat-disabled"><button>1층 A구역 10열 1번좌석</button></p>
+                                            <p id="a-line10-2" class="close"><button tabindex="-1">1층 A구역 10열 2번좌석</button></p>
+                                            <p id="a-line10-3" class="seat"><button>1층 A구역 10열 3번좌석</button></p>
+                                            <p id="a-line10-4" class="seat-distancing"><button tabindex="-1">1층 A구역 10열 4번좌석</button></p>
+                                            <p id="a-line10-5" class="seat"><button>1층 A구역 10열 5번좌석</button></p>
+                                            <p id="a-line10-6" class="close"><button tabindex="-1">1층 A구역 10열 6번좌석</button></p>
+                                            <p id="a-line10-7" class="close"><button tabindex="-1">1층 A구역 10열 7번좌석</button></p>
+                                            <p id="a-line10-8" class="close"><button tabindex="-1">1층 A구역 10열 8번좌석</button></p>
+                                            <p id="a-line10-9" class="close"><button tabindex="-1">1층 A구역 10열 9번좌석</button></p>
+                                            <p id="a-line10-10" class="close"><button tabindex="-1">1층 A구역 10열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line11">
+                                            <p id="a-line11-1" class="seat-disabled x2"><button>1층 A구역 11열 1번좌석</button></p>
+                                            <p id="a-line11-3" class="seat"><button>1층 A구역 11열 3번좌석</button></p>
+                                            <p id="a-line11-4" class="seat-distancing"><button tabindex="-1">1층 A구역 11열 4번좌석</button></p>
+                                            <p id="a-line11-5" class="seat"><button>1층 A구역 11열 5번좌석</button></p>
+                                            <p id="a-line11-6" class="close"><button tabindex="-1">1층 A구역 11열 6번좌석</button></p>
+                                            <p id="a-line11-7" class="close"><button tabindex="-1">1층 A구역 11열 7번좌석</button></p>
+                                            <p id="a-line11-8" class="close"><button tabindex="-1">1층 A구역 11열 8번좌석</button></p>
+                                            <p id="a-line11-9" class="close"><button tabindex="-1">1층 A구역 11열 9번좌석</button></p>
+                                            <p id="a-line11-10" class="close"><button tabindex="-1">1층 A구역 11열 10번좌석</button></p>
+                                        </div>
+
+                                    </div>
+
+
+                                    <!--구역 줄 구분 -->
+                                    <hr>
+
+
+                                    <div class="area areaD">
+
+                                        <div>
+                                            <p class="label margin"><span>D구역</span></p>
+                                        </div>
+    
+    
+
+                                        <div class="line5">
+                                            <p id="a-line5-1" class="close"><button tabindex="-1">1층 A구역 5열 1번좌석</button></p>
+                                            <p id="a-line5-2" class="seat"><button>1층 A구역 5열 2번좌석</button></p>
+                                            <p id="a-line5-3" class="close"><button tabindex="-1">1층 A구역 5열 3번좌석</button></p>
+                                            <p id="a-line5-4" class="seat"><button>1층 A구역 5열 4번좌석</button></p>
+                                            <p id="a-line5-5" class="close"><button tabindex="-1">1층 A구역 5열 5번좌석</button></p>
+                                            <p id="a-line5-6" class="close"><button tabindex="-1">1층 A구역 5열 6번좌석</button></p>
+                                            <p id="a-line5-7" class="close"><button tabindex="-1">1층 A구역 5열 7번좌석</button></p>
+                                            <p id="a-line5-8" class="seat"><button>1층 A구역 5열 8번좌석</button></p>
+                                            <p id="a-line5-9" class="close"><button tabindex="-1">1층 A구역 5열 9번좌석</button></p>
+                                            <p id="a-line5-10" class="seat"><button>1층 A구역 5열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line6">
+                                            <p id="a-line6-1" class="seat-disabled"><button>1층 A구역 6열 1번좌석</button></p>
+                                            <p id="a-line6-2" class="close"><button tabindex="-1">1층 A구역 6열 2번좌석</button></p>
+                                            <p id="a-line6-3" class="seat"><button>1층 A구역 6열 3번좌석</button></p>
+                                            <p id="a-line6-4" class="seat-distancing"><button tabindex="-1">1층 A구역 6열 4번좌석</button></p>
+                                            <p id="a-line6-5" class="seat"><button>1층 A구역 6열 5번좌석</button></p>
+                                            <p id="a-line6-6" class="close"><button tabindex="-1">1층 A구역 6열 6번좌석</button></p>
+                                            <p id="a-line6-7" class="close"><button tabindex="-1">1층 A구역 6열 7번좌석</button></p>
+                                            <p id="a-line6-8" class="close"><button tabindex="-1">1층 A구역 6열 8번좌석</button></p>
+                                            <p id="a-line6-9" class="close"><button tabindex="-1">1층 A구역 6열 9번좌석</button></p>
+                                            <p id="a-line6-10" class="close"><button tabindex="-1">1층 A구역 6열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line7">
+                                            <p id="a-line7-1" class="seat-disabled"><button>1층 A구역 7열 1번좌석</button></p>
+                                            <p id="a-line7-2" class="close"><button tabindex="-1">1층 A구역 7열 2번좌석</button></p>
+                                            <p id="a-line7-3" class="seat"><button>1층 A구역 7열 3번좌석</button></p>
+                                            <p id="a-line7-4" class="seat-distancing"><button tabindex="-1">1층 A구역 7열 4번좌석</button></p>
+                                            <p id="a-line7-5" class="seat"><button>1층 A구역 7열 5번좌석</button></p>
+                                            <p id="a-line7-6" class="close"><button tabindex="-1">1층 A구역 7열 6번좌석</button></p>
+                                            <p id="a-line7-7" class="close"><button tabindex="-1">1층 A구역 7열 7번좌석</button></p>
+                                            <p id="a-line7-8" class="close"><button tabindex="-1">1층 A구역 7열 8번좌석</button></p>
+                                            <p id="a-line7-9" class="close"><button tabindex="-1">1층 A구역 7열 9번좌석</button></p>
+                                            <p id="a-line7-10" class="close"><button tabindex="-1">1층 A구역 7열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line8">
+                                            <p id="a-line8-1" class="seat-disabled"><button>1층 A구역 8열 1번좌석</button></p>
+                                            <p id="a-line8-2" class="close"><button tabindex="-1">1층 A구역 8열 2번좌석</button></p>
+                                            <p id="a-line8-3" class="seat"><button>1층 A구역 8열 3번좌석</button></p>
+                                            <p id="a-line8-4" class="seat-distancing"><button tabindex="-1">1층 A구역 8열 4번좌석</button></p>
+                                            <p id="a-line8-5" class="seat"><button>1층 A구역 8열 5번좌석</button></p>
+                                            <p id="a-line8-6" class="close"><button tabindex="-1">1층 A구역 8열 6번좌석</button></p>
+                                            <p id="a-line8-7" class="close"><button tabindex="-1">1층 A구역 8열 7번좌석</button></p>
+                                            <p id="a-line8-8" class="close"><button tabindex="-1">1층 A구역 8열 8번좌석</button></p>
+                                            <p id="a-line8-9" class="close"><button tabindex="-1">1층 A구역 8열 9번좌석</button></p>
+                                            <p id="a-line8-10" class="close"><button tabindex="-1">1층 A구역 8열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line9">
+                                            <p id="a-line9-1" class="seat-disabled"><button>1층 A구역 9열 1번좌석</button></p>
+                                            <p id="a-line9-2" class="close"><button tabindex="-1">1층 A구역 9열 2번좌석</button></p>
+                                            <p id="a-line9-3" class="seat"><button>1층 A구역 9열 3번좌석</button></p>
+                                            <p id="a-line9-4" class="seat-distancing"><button tabindex="-1">1층 A구역 9열 4번좌석</button></p>
+                                            <p id="a-line9-5" class="seat"><button>1층 A구역 9열 5번좌석</button></p>
+                                            <p id="a-line9-6" class="close"><button tabindex="-1">1층 A구역 9열 6번좌석</button></p>
+                                            <p id="a-line9-7" class="close"><button tabindex="-1">1층 A구역 9열 7번좌석</button></p>
+                                            <p id="a-line9-8" class="close"><button tabindex="-1">1층 A구역 9열 8번좌석</button></p>
+                                            <p id="a-line9-9" class="close"><button tabindex="-1">1층 A구역 9열 9번좌석</button></p>
+                                            <p id="a-line9-10" class="close"><button tabindex="-1">1층 A구역 9열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line10">
+                                            <p id="a-line10-1" class="seat-disabled"><button>1층 A구역 10열 1번좌석</button></p>
+                                            <p id="a-line10-2" class="close"><button tabindex="-1">1층 A구역 10열 2번좌석</button></p>
+                                            <p id="a-line10-3" class="seat"><button>1층 A구역 10열 3번좌석</button></p>
+                                            <p id="a-line10-4" class="seat-distancing"><button tabindex="-1">1층 A구역 10열 4번좌석</button></p>
+                                            <p id="a-line10-5" class="seat"><button>1층 A구역 10열 5번좌석</button></p>
+                                            <p id="a-line10-6" class="close"><button tabindex="-1">1층 A구역 10열 6번좌석</button></p>
+                                            <p id="a-line10-7" class="close"><button tabindex="-1">1층 A구역 10열 7번좌석</button></p>
+                                            <p id="a-line10-8" class="close"><button tabindex="-1">1층 A구역 10열 8번좌석</button></p>
+                                            <p id="a-line10-9" class="close"><button tabindex="-1">1층 A구역 10열 9번좌석</button></p>
+                                            <p id="a-line10-10" class="close"><button tabindex="-1">1층 A구역 10열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line11">
+                                            <p id="a-line11-1" class="seat-disabled x2"><button>1층 A구역 11열 1번좌석</button></p>
+                                            <p id="a-line11-3" class="seat"><button>1층 A구역 11열 3번좌석</button></p>
+                                            <p id="a-line11-4" class="seat-distancing"><button tabindex="-1">1층 A구역 11열 4번좌석</button></p>
+                                            <p id="a-line11-5" class="seat"><button>1층 A구역 11열 5번좌석</button></p>
+                                            <p id="a-line11-6" class="close"><button tabindex="-1">1층 A구역 11열 6번좌석</button></p>
+                                            <p id="a-line11-7" class="close"><button tabindex="-1">1층 A구역 11열 7번좌석</button></p>
+                                            <p id="a-line11-8" class="close"><button tabindex="-1">1층 A구역 11열 8번좌석</button></p>
+                                            <p id="a-line11-9" class="close"><button tabindex="-1">1층 A구역 11열 9번좌석</button></p>
+                                            <p id="a-line11-10" class="close"><button tabindex="-1">1층 A구역 11열 10번좌석</button></p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="area label">
+                                        <div>
+                                            <p class="margin"><span></span></p>
+                                            <p><span>1</span></p>
+                                            <p><span>2</span></p>
+                                            <p><span>3</span></p>
+                                            <p><span>4</span></p>
+                                            <p><span>5</span></p>
+                                            <p><span>6</span></p>
+                                            <p><span>7</span></p>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="area areaE">
+
+                                        <div>
+                                            <p class="label margin"><span>E구역</span></p>
+                                        </div>
+
+    
+    
+                                        <div class="line5">
+                                            <p id="line5-1" class="close"><button tabindex="-1">1층 B구역 5열 1번좌석</button></p>
+                                            <p id="line5-2" class="close"><button tabindex="-1">1층 B구역 5열 2번좌석</button></p>
+                                            <p id="line5-3" class="close"><button tabindex="-1">1층 B구역 5열 3번좌석</button></p>
+                                            <p id="line5-4" class="seat checked"><button>1층 B구역 5열 4번좌석</button></p>
+                                            <p id="line5-5" class="close"><button tabindex="-1">1층 B구역 5열 5번좌석</button></p>
+                                            <p id="line5-6" class="seat checked"><button>1층 B구역 5열 6번좌석</button></p>
+                                            <p id="line5-7" class="close"><button tabindex="-1">1층 B구역 5열 7번좌석</button></p>
+                                            <p id="line5-8" class="seat"><button>1층 B구역 5열 8번좌석</button></p>
+                                            <p id="line5-9" class="close"><button tabindex="-1">1층 B구역 5열 9번좌석</button></p>
+                                            <p id="line5-10" class="seat"><button>1층 B구역 5열 10번좌석</button></p>
+                                            <p id="line5-11" class="seat"><button>1층 B구역 5열 11번좌석</button></p>
+                                            <p id="line5-12" class="seat"><button>1층 B구역 5열 12번좌석</button></p>
+                                        </div>
+                                        <div class="line6">
+                                            <p id="line6-1" class="close"><button tabindex="-1">1층 B구역 6열 1번좌석</button></p>
+                                            <p id="line6-2" class="close"><button tabindex="-1">1층 B구역 6열 2번좌석</button></p>
+                                            <p id="line6-3" class="close"><button tabindex="-1">1층 B구역 6열 3번좌석</button></p>
+                                            <p id="line6-4" class="seat checked"><button>1층 B구역 6열 4번좌석</button></p>
+                                            <p id="line6-5" class="close"><button tabindex="-1">1층 B구역 6열 5번좌석</button></p>
+                                            <p id="line6-6" class="seat checked"><button>1층 B구역 6열 6번좌석</button></p>
+                                            <p id="line6-7" class="close"><button tabindex="-1">1층 B구역 6열 7번좌석</button></p>
+                                            <p id="line6-8" class="seat"><button>1층 B구역 6열 8번좌석</button></p>
+                                            <p id="line6-9" class="close"><button tabindex="-1">1층 B구역 6열 9번좌석</button></p>
+                                            <p id="line6-10" class="seat"><button>1층 B구역 6열 10번좌석</button></p>
+                                            <p id="line6-11" class="seat"><button>1층 B구역 6열 11번좌석</button></p>
+                                        </div>
+                                        <div class="line7">
+                                            <p id="line7-1" class="close"><button tabindex="-1">1층 B구역 7열 1번좌석</button></p>
+                                            <p id="line7-2" class="close"><button tabindex="-1">1층 B구역 7열 2번좌석</button></p>
+                                            <p id="line7-3" class="close"><button tabindex="-1">1층 B구역 7열 3번좌석</button></p>
+                                            <p id="line7-4" class="seat checked"><button>1층 B구역 7열 4번좌석</button></p>
+                                            <p id="line7-5" class="close"><button tabindex="-1">1층 B구역 7열 5번좌석</button></p>
+                                            <p id="line7-6" class="seat checked"><button>1층 B구역 7열 6번좌석</button></p>
+                                            <p id="line7-7" class="close"><button tabindex="-1">1층 B구역 7열 7번좌석</button></p>
+                                            <p id="line7-8" class="seat"><button>1층 B구역 7열 8번좌석</button></p>
+                                            <p id="line7-9" class="close"><button tabindex="-1">1층 B구역 7열 9번좌석</button></p>
+                                            <p id="line7-10" class="seat"><button>1층 B구역 7열 10번좌석</button></p>
+                                            <p id="line7-11" class="seat"><button>1층 B구역 7열 11번좌석</button></p>
+                                            <p id="line7-12" class="seat"><button>1층 B구역 7열 12번좌석</button></p>
+                                        </div>
+                                        <div class="line8">
+                                            <p id="line8-1" class="close"><button tabindex="-1">1층 B구역 8열 1번좌석</button></p>
+                                            <p id="line8-2" class="close"><button tabindex="-1">1층 B구역 8열 2번좌석</button></p>
+                                            <p id="line8-3" class="close"><button tabindex="-1">1층 B구역 8열 3번좌석</button></p>
+                                            <p id="line8-4" class="seat checked"><button>1층 B구역 8열 4번좌석</button></p>
+                                            <p id="line8-5" class="close"><button tabindex="-1">1층 B구역 8열 5번좌석</button></p>
+                                            <p id="line8-6" class="seat checked"><button>1층 B구역 8열 6번좌석</button></p>
+                                            <p id="line8-7" class="close"><button tabindex="-1">1층 B구역 8열 7번좌석</button></p>
+                                            <p id="line8-8" class="seat"><button>1층 B구역 8열 8번좌석</button></p>
+                                            <p id="line8-9" class="close"><button tabindex="-1">1층 B구역 8열 9번좌석</button></p>
+                                            <p id="line8-10" class="seat"><button>1층 B구역 8열 10번좌석</button></p>
+                                            <p id="line8-11" class="seat"><button>1층 B구역 8열 11번좌석</button></p>
+                                        </div>
+                                        <div class="line9">
+                                            <p id="line9-1" class="close"><button tabindex="-1">1층 B구역 9열 1번좌석</button></p>
+                                            <p id="line9-2" class="close"><button tabindex="-1">1층 B구역 9열 2번좌석</button></p>
+                                            <p id="line9-3" class="close"><button tabindex="-1">1층 B구역 9열 3번좌석</button></p>
+                                            <p id="line9-4" class="seat checked"><button>1층 B구역 9열 4번좌석</button></p>
+                                            <p id="line9-5" class="close"><button tabindex="-1">1층 B구역 9열 5번좌석</button></p>
+                                            <p id="line9-6" class="seat checked"><button>1층 B구역 9열 6번좌석</button></p>
+                                            <p id="line9-7" class="close"><button tabindex="-1">1층 B구역 9열 7번좌석</button></p>
+                                            <p id="line9-8" class="seat"><button>1층 B구역 9열 8번좌석</button></p>
+                                            <p id="line9-9" class="close"><button tabindex="-1">1층 B구역 9열 9번좌석</button></p>
+                                            <p id="line9-10" class="seat"><button>1층 B구역 9열 10번좌석</button></p>
+                                            <p id="line9-11" class="seat"><button>1층 B구역 9열 11번좌석</button></p>
+                                            <p id="line9-12" class="seat"><button>1층 B구역 9열 12번좌석</button></p>
+                                        </div>
+                                        <div class="line10">
+                                            <p id="line10-1" class="close"><button tabindex="-1">1층 B구역 10열 1번좌석</button></p>
+                                            <p id="line10-2" class="close"><button tabindex="-1">1층 B구역 10열 2번좌석</button></p>
+                                            <p id="line10-3" class="close"><button tabindex="-1">1층 B구역 10열 3번좌석</button></p>
+                                            <p id="line10-4" class="seat checked"><button>1층 B구역 10열 4번좌석</button></p>
+                                            <p id="line10-5" class="close"><button tabindex="-1">1층 B구역 10열 5번좌석</button></p>
+                                            <p id="line10-6" class="seat checked"><button>1층 B구역 10열 6번좌석</button></p>
+                                            <p id="line10-7" class="close"><button tabindex="-1">1층 B구역 10열 7번좌석</button></p>
+                                            <p id="line10-8" class="seat"><button>1층 B구역 10열 8번좌석</button></p>
+                                            <p id="line10-9" class="close"><button tabindex="-1">1층 B구역 10열 9번좌석</button></p>
+                                            <p id="line10-10" class="seat"><button>1층 B구역 10열 10번좌석</button></p>
+                                            <p id="line10-11" class="seat"><button>1층 B구역 10열 11번좌석</button></p>
+                                        </div>
+                                        <div class="line11">
+                                            <p id="line11-1" class="close"><button tabindex="-1">1층 B구역 11열 1번좌석</button></p>
+                                            <p id="line11-2" class="close"><button tabindex="-1">1층 B구역 11열 2번좌석</button></p>
+                                            <p id="line11-3" class="close"><button tabindex="-1">1층 B구역 11열 3번좌석</button></p>
+                                            <p id="line11-4" class="seat checked"><button>1층 B구역 11열 4번좌석</button></p>
+                                            <p id="line11-5" class="close"><button tabindex="-1">1층 B구역 11열 5번좌석</button></p>
+                                            <p id="line11-6" class="seat checked"><button>1층 B구역 11열 6번좌석</button></p>
+                                            <p id="line11-7" class="close"><button tabindex="-1">1층 B구역 11열 7번좌석</button></p>
+                                            <p id="line11-8" class="seat"><button>1층 B구역 11열 8번좌석</button></p>
+                                            <p id="line11-9" class="close"><button tabindex="-1">1층 B구역 11열 9번좌석</button></p>
+                                            <p id="line11-10" class="seat"><button>1층 B구역 11열 10번좌석</button></p>
+                                            <p id="line11-11" class="seat"><button>1층 B구역 11열 11번좌석</button></p>
+                                            <p id="line11-12" class="seat"><button>1층 B구역 11열 12번좌석</button></p>
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div class="area label">
+                                        <div>
+                                            <p class="margin"><span></span></p>
+                                            <p><span>1</span></p>
+                                            <p><span>2</span></p>
+                                            <p><span>3</span></p>
+                                            <p><span>4</span></p>
+                                            <p><span>5</span></p>
+                                            <p><span>6</span></p>
+                                            <p><span>7</span></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="area areaF">
+
+                                        <div>
+                                            <p class="label margin"><span>F구역</span></p>
+                                        </div>
+    
+
+                                        <div class="line5">
+                                            <p id="a-line5-1" class="close"><button tabindex="-1">1층 A구역 5열 1번좌석</button></p>
+                                            <p id="a-line5-2" class="seat"><button>1층 A구역 5열 2번좌석</button></p>
+                                            <p id="a-line5-3" class="close"><button tabindex="-1">1층 A구역 5열 3번좌석</button></p>
+                                            <p id="a-line5-4" class="seat"><button>1층 A구역 5열 4번좌석</button></p>
+                                            <p id="a-line5-5" class="close"><button tabindex="-1">1층 A구역 5열 5번좌석</button></p>
+                                            <p id="a-line5-6" class="close"><button tabindex="-1">1층 A구역 5열 6번좌석</button></p>
+                                            <p id="a-line5-7" class="close"><button tabindex="-1">1층 A구역 5열 7번좌석</button></p>
+                                            <p id="a-line5-8" class="seat"><button>1층 A구역 5열 8번좌석</button></p>
+                                            <p id="a-line5-9" class="close"><button tabindex="-1">1층 A구역 5열 9번좌석</button></p>
+                                            <p id="a-line5-10" class="seat"><button>1층 A구역 5열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line6">
+                                            <p id="a-line6-1" class="seat-disabled"><button>1층 A구역 6열 1번좌석</button></p>
+                                            <p id="a-line6-2" class="close"><button tabindex="-1">1층 A구역 6열 2번좌석</button></p>
+                                            <p id="a-line6-3" class="seat"><button>1층 A구역 6열 3번좌석</button></p>
+                                            <p id="a-line6-4" class="seat-distancing"><button tabindex="-1">1층 A구역 6열 4번좌석</button></p>
+                                            <p id="a-line6-5" class="seat"><button>1층 A구역 6열 5번좌석</button></p>
+                                            <p id="a-line6-6" class="close"><button tabindex="-1">1층 A구역 6열 6번좌석</button></p>
+                                            <p id="a-line6-7" class="close"><button tabindex="-1">1층 A구역 6열 7번좌석</button></p>
+                                            <p id="a-line6-8" class="close"><button tabindex="-1">1층 A구역 6열 8번좌석</button></p>
+                                            <p id="a-line6-9" class="close"><button tabindex="-1">1층 A구역 6열 9번좌석</button></p>
+                                            <p id="a-line6-10" class="close"><button tabindex="-1">1층 A구역 6열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line7">
+                                            <p id="a-line7-1" class="seat-disabled"><button>1층 A구역 7열 1번좌석</button></p>
+                                            <p id="a-line7-2" class="close"><button tabindex="-1">1층 A구역 7열 2번좌석</button></p>
+                                            <p id="a-line7-3" class="seat"><button>1층 A구역 7열 3번좌석</button></p>
+                                            <p id="a-line7-4" class="seat-distancing"><button tabindex="-1">1층 A구역 7열 4번좌석</button></p>
+                                            <p id="a-line7-5" class="seat"><button>1층 A구역 7열 5번좌석</button></p>
+                                            <p id="a-line7-6" class="close"><button tabindex="-1">1층 A구역 7열 6번좌석</button></p>
+                                            <p id="a-line7-7" class="close"><button tabindex="-1">1층 A구역 7열 7번좌석</button></p>
+                                            <p id="a-line7-8" class="close"><button tabindex="-1">1층 A구역 7열 8번좌석</button></p>
+                                            <p id="a-line7-9" class="close"><button tabindex="-1">1층 A구역 7열 9번좌석</button></p>
+                                            <p id="a-line7-10" class="close"><button tabindex="-1">1층 A구역 7열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line8">
+                                            <p id="a-line8-1" class="seat-disabled"><button>1층 A구역 8열 1번좌석</button></p>
+                                            <p id="a-line8-2" class="close"><button tabindex="-1">1층 A구역 8열 2번좌석</button></p>
+                                            <p id="a-line8-3" class="seat"><button>1층 A구역 8열 3번좌석</button></p>
+                                            <p id="a-line8-4" class="seat-distancing"><button tabindex="-1">1층 A구역 8열 4번좌석</button></p>
+                                            <p id="a-line8-5" class="seat"><button>1층 A구역 8열 5번좌석</button></p>
+                                            <p id="a-line8-6" class="close"><button tabindex="-1">1층 A구역 8열 6번좌석</button></p>
+                                            <p id="a-line8-7" class="close"><button tabindex="-1">1층 A구역 8열 7번좌석</button></p>
+                                            <p id="a-line8-8" class="close"><button tabindex="-1">1층 A구역 8열 8번좌석</button></p>
+                                            <p id="a-line8-9" class="close"><button tabindex="-1">1층 A구역 8열 9번좌석</button></p>
+                                            <p id="a-line8-10" class="close"><button tabindex="-1">1층 A구역 8열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line9">
+                                            <p id="a-line9-1" class="seat-disabled"><button>1층 A구역 9열 1번좌석</button></p>
+                                            <p id="a-line9-2" class="close"><button tabindex="-1">1층 A구역 9열 2번좌석</button></p>
+                                            <p id="a-line9-3" class="seat"><button>1층 A구역 9열 3번좌석</button></p>
+                                            <p id="a-line9-4" class="seat-distancing"><button tabindex="-1">1층 A구역 9열 4번좌석</button></p>
+                                            <p id="a-line9-5" class="seat"><button>1층 A구역 9열 5번좌석</button></p>
+                                            <p id="a-line9-6" class="close"><button tabindex="-1">1층 A구역 9열 6번좌석</button></p>
+                                            <p id="a-line9-7" class="close"><button tabindex="-1">1층 A구역 9열 7번좌석</button></p>
+                                            <p id="a-line9-8" class="close"><button tabindex="-1">1층 A구역 9열 8번좌석</button></p>
+                                            <p id="a-line9-9" class="close"><button tabindex="-1">1층 A구역 9열 9번좌석</button></p>
+                                            <p id="a-line9-10" class="close"><button tabindex="-1">1층 A구역 9열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line10">
+                                            <p id="a-line10-1" class="seat-disabled"><button>1층 A구역 10열 1번좌석</button></p>
+                                            <p id="a-line10-2" class="close"><button tabindex="-1">1층 A구역 10열 2번좌석</button></p>
+                                            <p id="a-line10-3" class="seat"><button>1층 A구역 10열 3번좌석</button></p>
+                                            <p id="a-line10-4" class="seat-distancing"><button tabindex="-1">1층 A구역 10열 4번좌석</button></p>
+                                            <p id="a-line10-5" class="seat"><button>1층 A구역 10열 5번좌석</button></p>
+                                            <p id="a-line10-6" class="close"><button tabindex="-1">1층 A구역 10열 6번좌석</button></p>
+                                            <p id="a-line10-7" class="close"><button tabindex="-1">1층 A구역 10열 7번좌석</button></p>
+                                            <p id="a-line10-8" class="close"><button tabindex="-1">1층 A구역 10열 8번좌석</button></p>
+                                            <p id="a-line10-9" class="close"><button tabindex="-1">1층 A구역 10열 9번좌석</button></p>
+                                            <p id="a-line10-10" class="close"><button tabindex="-1">1층 A구역 10열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line11">
+                                            <p id="a-line11-1" class="seat-disabled x2"><button>1층 A구역 11열 1번좌석</button></p>
+                                            <p id="a-line11-3" class="seat"><button>1층 A구역 11열 3번좌석</button></p>
+                                            <p id="a-line11-4" class="seat-distancing"><button tabindex="-1">1층 A구역 11열 4번좌석</button></p>
+                                            <p id="a-line11-5" class="seat"><button>1층 A구역 11열 5번좌석</button></p>
+                                            <p id="a-line11-6" class="close"><button tabindex="-1">1층 A구역 11열 6번좌석</button></p>
+                                            <p id="a-line11-7" class="close"><button tabindex="-1">1층 A구역 11열 7번좌석</button></p>
+                                            <p id="a-line11-8" class="close"><button tabindex="-1">1층 A구역 11열 8번좌석</button></p>
+                                            <p id="a-line11-9" class="close"><button tabindex="-1">1층 A구역 11열 9번좌석</button></p>
+                                            <p id="a-line11-10" class="close"><button tabindex="-1">1층 A구역 11열 10번좌석</button></p>
+                                        </div>
+
+                                    </div>
+
+                                    
+
+                                </div>
+
+                                <h7>2층</h7>
+                                <div class="outline seat-1f">
+
+
+
+                                    <div class="area areaG">
+
+                                        <div>
+                                            <p class="label margin"><span>G구역</span></p>
+                                        </div>
+    
+    
+
+                                        <div class="line5">
+                                            <p id="a-line5-1" class="close"><button tabindex="-1">1층 A구역 5열 1번좌석</button></p>
+                                            <p id="a-line5-2" class="seat"><button>1층 A구역 5열 2번좌석</button></p>
+                                            <p id="a-line5-3" class="close"><button tabindex="-1">1층 A구역 5열 3번좌석</button></p>
+                                            <p id="a-line5-4" class="seat"><button>1층 A구역 5열 4번좌석</button></p>
+                                            <p id="a-line5-5" class="close"><button tabindex="-1">1층 A구역 5열 5번좌석</button></p>
+                                            <p id="a-line5-6" class="close"><button tabindex="-1">1층 A구역 5열 6번좌석</button></p>
+                                            <p id="a-line5-7" class="close"><button tabindex="-1">1층 A구역 5열 7번좌석</button></p>
+                                            <p id="a-line5-8" class="seat"><button>1층 A구역 5열 8번좌석</button></p>
+                                            <p id="a-line5-9" class="close"><button tabindex="-1">1층 A구역 5열 9번좌석</button></p>
+                                            <p id="a-line5-10" class="seat"><button>1층 A구역 5열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line6">
+                                            <p id="a-line6-1" class="seat-disabled"><button>1층 A구역 6열 1번좌석</button></p>
+                                            <p id="a-line6-2" class="close"><button tabindex="-1">1층 A구역 6열 2번좌석</button></p>
+                                            <p id="a-line6-3" class="seat"><button>1층 A구역 6열 3번좌석</button></p>
+                                            <p id="a-line6-4" class="seat-distancing"><button tabindex="-1">1층 A구역 6열 4번좌석</button></p>
+                                            <p id="a-line6-5" class="seat"><button>1층 A구역 6열 5번좌석</button></p>
+                                            <p id="a-line6-6" class="close"><button tabindex="-1">1층 A구역 6열 6번좌석</button></p>
+                                            <p id="a-line6-7" class="close"><button tabindex="-1">1층 A구역 6열 7번좌석</button></p>
+                                            <p id="a-line6-8" class="close"><button tabindex="-1">1층 A구역 6열 8번좌석</button></p>
+                                            <p id="a-line6-9" class="close"><button tabindex="-1">1층 A구역 6열 9번좌석</button></p>
+                                            <p id="a-line6-10" class="close"><button tabindex="-1">1층 A구역 6열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line7">
+                                            <p id="a-line7-1" class="seat-disabled"><button>1층 A구역 7열 1번좌석</button></p>
+                                            <p id="a-line7-2" class="close"><button tabindex="-1">1층 A구역 7열 2번좌석</button></p>
+                                            <p id="a-line7-3" class="seat"><button>1층 A구역 7열 3번좌석</button></p>
+                                            <p id="a-line7-4" class="seat-distancing"><button tabindex="-1">1층 A구역 7열 4번좌석</button></p>
+                                            <p id="a-line7-5" class="seat"><button>1층 A구역 7열 5번좌석</button></p>
+                                            <p id="a-line7-6" class="close"><button tabindex="-1">1층 A구역 7열 6번좌석</button></p>
+                                            <p id="a-line7-7" class="close"><button tabindex="-1">1층 A구역 7열 7번좌석</button></p>
+                                            <p id="a-line7-8" class="close"><button tabindex="-1">1층 A구역 7열 8번좌석</button></p>
+                                            <p id="a-line7-9" class="close"><button tabindex="-1">1층 A구역 7열 9번좌석</button></p>
+                                            <p id="a-line7-10" class="close"><button tabindex="-1">1층 A구역 7열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line8">
+                                            <p id="a-line8-1" class="seat-disabled"><button>1층 A구역 8열 1번좌석</button></p>
+                                            <p id="a-line8-2" class="close"><button tabindex="-1">1층 A구역 8열 2번좌석</button></p>
+                                            <p id="a-line8-3" class="seat"><button>1층 A구역 8열 3번좌석</button></p>
+                                            <p id="a-line8-4" class="seat-distancing"><button tabindex="-1">1층 A구역 8열 4번좌석</button></p>
+                                            <p id="a-line8-5" class="seat"><button>1층 A구역 8열 5번좌석</button></p>
+                                            <p id="a-line8-6" class="close"><button tabindex="-1">1층 A구역 8열 6번좌석</button></p>
+                                            <p id="a-line8-7" class="close"><button tabindex="-1">1층 A구역 8열 7번좌석</button></p>
+                                            <p id="a-line8-8" class="close"><button tabindex="-1">1층 A구역 8열 8번좌석</button></p>
+                                            <p id="a-line8-9" class="close"><button tabindex="-1">1층 A구역 8열 9번좌석</button></p>
+                                            <p id="a-line8-10" class="close"><button tabindex="-1">1층 A구역 8열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line9">
+                                            <p id="a-line9-1" class="seat-disabled"><button>1층 A구역 9열 1번좌석</button></p>
+                                            <p id="a-line9-2" class="close"><button tabindex="-1">1층 A구역 9열 2번좌석</button></p>
+                                            <p id="a-line9-3" class="seat"><button>1층 A구역 9열 3번좌석</button></p>
+                                            <p id="a-line9-4" class="seat-distancing"><button tabindex="-1">1층 A구역 9열 4번좌석</button></p>
+                                            <p id="a-line9-5" class="seat"><button>1층 A구역 9열 5번좌석</button></p>
+                                            <p id="a-line9-6" class="close"><button tabindex="-1">1층 A구역 9열 6번좌석</button></p>
+                                            <p id="a-line9-7" class="close"><button tabindex="-1">1층 A구역 9열 7번좌석</button></p>
+                                            <p id="a-line9-8" class="close"><button tabindex="-1">1층 A구역 9열 8번좌석</button></p>
+                                            <p id="a-line9-9" class="close"><button tabindex="-1">1층 A구역 9열 9번좌석</button></p>
+                                            <p id="a-line9-10" class="close"><button tabindex="-1">1층 A구역 9열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line10">
+                                            <p id="a-line10-1" class="seat-disabled"><button>1층 A구역 10열 1번좌석</button></p>
+                                            <p id="a-line10-2" class="close"><button tabindex="-1">1층 A구역 10열 2번좌석</button></p>
+                                            <p id="a-line10-3" class="seat"><button>1층 A구역 10열 3번좌석</button></p>
+                                            <p id="a-line10-4" class="seat-distancing"><button tabindex="-1">1층 A구역 10열 4번좌석</button></p>
+                                            <p id="a-line10-5" class="seat"><button>1층 A구역 10열 5번좌석</button></p>
+                                            <p id="a-line10-6" class="close"><button tabindex="-1">1층 A구역 10열 6번좌석</button></p>
+                                            <p id="a-line10-7" class="close"><button tabindex="-1">1층 A구역 10열 7번좌석</button></p>
+                                            <p id="a-line10-8" class="close"><button tabindex="-1">1층 A구역 10열 8번좌석</button></p>
+                                            <p id="a-line10-9" class="close"><button tabindex="-1">1층 A구역 10열 9번좌석</button></p>
+                                            <p id="a-line10-10" class="close"><button tabindex="-1">1층 A구역 10열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line11">
+                                            <p id="a-line11-1" class="seat-disabled x2"><button>1층 A구역 11열 1번좌석</button></p>
+                                            <p id="a-line11-3" class="seat"><button>1층 A구역 11열 3번좌석</button></p>
+                                            <p id="a-line11-4" class="seat-distancing"><button tabindex="-1">1층 A구역 11열 4번좌석</button></p>
+                                            <p id="a-line11-5" class="seat"><button>1층 A구역 11열 5번좌석</button></p>
+                                            <p id="a-line11-6" class="close"><button tabindex="-1">1층 A구역 11열 6번좌석</button></p>
+                                            <p id="a-line11-7" class="close"><button tabindex="-1">1층 A구역 11열 7번좌석</button></p>
+                                            <p id="a-line11-8" class="close"><button tabindex="-1">1층 A구역 11열 8번좌석</button></p>
+                                            <p id="a-line11-9" class="close"><button tabindex="-1">1층 A구역 11열 9번좌석</button></p>
+                                            <p id="a-line11-10" class="close"><button tabindex="-1">1층 A구역 11열 10번좌석</button></p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="area label">
+                                        <div>
+                                            <p class="margin"><span></span></p>
+                                            <p><span>1</span></p>
+                                            <p><span>2</span></p>
+                                            <p><span>3</span></p>
+                                            <p><span>4</span></p>
+                                            <p><span>5</span></p>
+                                            <p><span>6</span></p>
+                                            <p><span>7</span></p>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="area areaH">
+
+                                        <div>
+                                            <p class="label margin"><span>H구역</span></p>
+                                        </div>
+
+    
+    
+                                        <div class="line5">
+                                            <p id="line5-1" class="close"><button tabindex="-1">1층 B구역 5열 1번좌석</button></p>
+                                            <p id="line5-2" class="close"><button tabindex="-1">1층 B구역 5열 2번좌석</button></p>
+                                            <p id="line5-3" class="close"><button tabindex="-1">1층 B구역 5열 3번좌석</button></p>
+                                            <p id="line5-4" class="seat checked"><button>1층 B구역 5열 4번좌석</button></p>
+                                            <p id="line5-5" class="close"><button tabindex="-1">1층 B구역 5열 5번좌석</button></p>
+                                            <p id="line5-6" class="seat checked"><button>1층 B구역 5열 6번좌석</button></p>
+                                            <p id="line5-7" class="close"><button tabindex="-1">1층 B구역 5열 7번좌석</button></p>
+                                            <p id="line5-8" class="seat"><button>1층 B구역 5열 8번좌석</button></p>
+                                            <p id="line5-9" class="close"><button tabindex="-1">1층 B구역 5열 9번좌석</button></p>
+                                            <p id="line5-10" class="seat"><button>1층 B구역 5열 10번좌석</button></p>
+                                            <p id="line5-11" class="seat"><button>1층 B구역 5열 11번좌석</button></p>
+                                            <p id="line5-12" class="seat"><button>1층 B구역 5열 12번좌석</button></p>
+                                        </div>
+                                        <div class="line6">
+                                            <p id="line6-1" class="close"><button tabindex="-1">1층 B구역 6열 1번좌석</button></p>
+                                            <p id="line6-2" class="close"><button tabindex="-1">1층 B구역 6열 2번좌석</button></p>
+                                            <p id="line6-3" class="close"><button tabindex="-1">1층 B구역 6열 3번좌석</button></p>
+                                            <p id="line6-4" class="seat checked"><button>1층 B구역 6열 4번좌석</button></p>
+                                            <p id="line6-5" class="close"><button tabindex="-1">1층 B구역 6열 5번좌석</button></p>
+                                            <p id="line6-6" class="seat checked"><button>1층 B구역 6열 6번좌석</button></p>
+                                            <p id="line6-7" class="close"><button tabindex="-1">1층 B구역 6열 7번좌석</button></p>
+                                            <p id="line6-8" class="seat"><button>1층 B구역 6열 8번좌석</button></p>
+                                            <p id="line6-9" class="close"><button tabindex="-1">1층 B구역 6열 9번좌석</button></p>
+                                            <p id="line6-10" class="seat"><button>1층 B구역 6열 10번좌석</button></p>
+                                            <p id="line6-11" class="seat"><button>1층 B구역 6열 11번좌석</button></p>
+                                        </div>
+                                        <div class="line7">
+                                            <p id="line7-1" class="close"><button tabindex="-1">1층 B구역 7열 1번좌석</button></p>
+                                            <p id="line7-2" class="close"><button tabindex="-1">1층 B구역 7열 2번좌석</button></p>
+                                            <p id="line7-3" class="close"><button tabindex="-1">1층 B구역 7열 3번좌석</button></p>
+                                            <p id="line7-4" class="seat checked"><button>1층 B구역 7열 4번좌석</button></p>
+                                            <p id="line7-5" class="close"><button tabindex="-1">1층 B구역 7열 5번좌석</button></p>
+                                            <p id="line7-6" class="seat checked"><button>1층 B구역 7열 6번좌석</button></p>
+                                            <p id="line7-7" class="close"><button tabindex="-1">1층 B구역 7열 7번좌석</button></p>
+                                            <p id="line7-8" class="seat"><button>1층 B구역 7열 8번좌석</button></p>
+                                            <p id="line7-9" class="close"><button tabindex="-1">1층 B구역 7열 9번좌석</button></p>
+                                            <p id="line7-10" class="seat"><button>1층 B구역 7열 10번좌석</button></p>
+                                            <p id="line7-11" class="seat"><button>1층 B구역 7열 11번좌석</button></p>
+                                            <p id="line7-12" class="seat"><button>1층 B구역 7열 12번좌석</button></p>
+                                        </div>
+                                        <div class="line8">
+                                            <p id="line8-1" class="close"><button tabindex="-1">1층 B구역 8열 1번좌석</button></p>
+                                            <p id="line8-2" class="close"><button tabindex="-1">1층 B구역 8열 2번좌석</button></p>
+                                            <p id="line8-3" class="close"><button tabindex="-1">1층 B구역 8열 3번좌석</button></p>
+                                            <p id="line8-4" class="seat checked"><button>1층 B구역 8열 4번좌석</button></p>
+                                            <p id="line8-5" class="close"><button tabindex="-1">1층 B구역 8열 5번좌석</button></p>
+                                            <p id="line8-6" class="seat checked"><button>1층 B구역 8열 6번좌석</button></p>
+                                            <p id="line8-7" class="close"><button tabindex="-1">1층 B구역 8열 7번좌석</button></p>
+                                            <p id="line8-8" class="seat"><button>1층 B구역 8열 8번좌석</button></p>
+                                            <p id="line8-9" class="close"><button tabindex="-1">1층 B구역 8열 9번좌석</button></p>
+                                            <p id="line8-10" class="seat"><button>1층 B구역 8열 10번좌석</button></p>
+                                            <p id="line8-11" class="seat"><button>1층 B구역 8열 11번좌석</button></p>
+                                        </div>
+                                        <div class="line9">
+                                            <p id="line9-1" class="close"><button tabindex="-1">1층 B구역 9열 1번좌석</button></p>
+                                            <p id="line9-2" class="close"><button tabindex="-1">1층 B구역 9열 2번좌석</button></p>
+                                            <p id="line9-3" class="close"><button tabindex="-1">1층 B구역 9열 3번좌석</button></p>
+                                            <p id="line9-4" class="seat checked"><button>1층 B구역 9열 4번좌석</button></p>
+                                            <p id="line9-5" class="close"><button tabindex="-1">1층 B구역 9열 5번좌석</button></p>
+                                            <p id="line9-6" class="seat checked"><button>1층 B구역 9열 6번좌석</button></p>
+                                            <p id="line9-7" class="close"><button tabindex="-1">1층 B구역 9열 7번좌석</button></p>
+                                            <p id="line9-8" class="seat"><button>1층 B구역 9열 8번좌석</button></p>
+                                            <p id="line9-9" class="close"><button tabindex="-1">1층 B구역 9열 9번좌석</button></p>
+                                            <p id="line9-10" class="seat"><button>1층 B구역 9열 10번좌석</button></p>
+                                            <p id="line9-11" class="seat"><button>1층 B구역 9열 11번좌석</button></p>
+                                            <p id="line9-12" class="seat"><button>1층 B구역 9열 12번좌석</button></p>
+                                        </div>
+                                        <div class="line10">
+                                            <p id="line10-1" class="close"><button tabindex="-1">1층 B구역 10열 1번좌석</button></p>
+                                            <p id="line10-2" class="close"><button tabindex="-1">1층 B구역 10열 2번좌석</button></p>
+                                            <p id="line10-3" class="close"><button tabindex="-1">1층 B구역 10열 3번좌석</button></p>
+                                            <p id="line10-4" class="seat checked"><button>1층 B구역 10열 4번좌석</button></p>
+                                            <p id="line10-5" class="close"><button tabindex="-1">1층 B구역 10열 5번좌석</button></p>
+                                            <p id="line10-6" class="seat checked"><button>1층 B구역 10열 6번좌석</button></p>
+                                            <p id="line10-7" class="close"><button tabindex="-1">1층 B구역 10열 7번좌석</button></p>
+                                            <p id="line10-8" class="seat"><button>1층 B구역 10열 8번좌석</button></p>
+                                            <p id="line10-9" class="close"><button tabindex="-1">1층 B구역 10열 9번좌석</button></p>
+                                            <p id="line10-10" class="seat"><button>1층 B구역 10열 10번좌석</button></p>
+                                            <p id="line10-11" class="seat"><button>1층 B구역 10열 11번좌석</button></p>
+                                        </div>
+                                        <div class="line11">
+                                            <p id="line11-1" class="close"><button tabindex="-1">1층 B구역 11열 1번좌석</button></p>
+                                            <p id="line11-2" class="close"><button tabindex="-1">1층 B구역 11열 2번좌석</button></p>
+                                            <p id="line11-3" class="close"><button tabindex="-1">1층 B구역 11열 3번좌석</button></p>
+                                            <p id="line11-4" class="seat checked"><button>1층 B구역 11열 4번좌석</button></p>
+                                            <p id="line11-5" class="close"><button tabindex="-1">1층 B구역 11열 5번좌석</button></p>
+                                            <p id="line11-6" class="seat checked"><button>1층 B구역 11열 6번좌석</button></p>
+                                            <p id="line11-7" class="close"><button tabindex="-1">1층 B구역 11열 7번좌석</button></p>
+                                            <p id="line11-8" class="seat"><button>1층 B구역 11열 8번좌석</button></p>
+                                            <p id="line11-9" class="close"><button tabindex="-1">1층 B구역 11열 9번좌석</button></p>
+                                            <p id="line11-10" class="seat"><button>1층 B구역 11열 10번좌석</button></p>
+                                            <p id="line11-11" class="seat"><button>1층 B구역 11열 11번좌석</button></p>
+                                            <p id="line11-12" class="seat"><button>1층 B구역 11열 12번좌석</button></p>
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div class="area label">
+                                        <div>
+                                            <p class="margin"><span></span></p>
+                                            <p><span>1</span></p>
+                                            <p><span>2</span></p>
+                                            <p><span>3</span></p>
+                                            <p><span>4</span></p>
+                                            <p><span>5</span></p>
+                                            <p><span>6</span></p>
+                                            <p><span>7</span></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="area areaI">
+
+                                        <div>
+                                            <p class="label margin"><span>I구역</span></p>
+                                        </div>
+    
+
+                                        <div class="line5">
+                                            <p id="a-line5-1" class="close"><button tabindex="-1">1층 A구역 5열 1번좌석</button></p>
+                                            <p id="a-line5-2" class="seat"><button>1층 A구역 5열 2번좌석</button></p>
+                                            <p id="a-line5-3" class="close"><button tabindex="-1">1층 A구역 5열 3번좌석</button></p>
+                                            <p id="a-line5-4" class="seat"><button>1층 A구역 5열 4번좌석</button></p>
+                                            <p id="a-line5-5" class="close"><button tabindex="-1">1층 A구역 5열 5번좌석</button></p>
+                                            <p id="a-line5-6" class="close"><button tabindex="-1">1층 A구역 5열 6번좌석</button></p>
+                                            <p id="a-line5-7" class="close"><button tabindex="-1">1층 A구역 5열 7번좌석</button></p>
+                                            <p id="a-line5-8" class="seat"><button>1층 A구역 5열 8번좌석</button></p>
+                                            <p id="a-line5-9" class="close"><button tabindex="-1">1층 A구역 5열 9번좌석</button></p>
+                                            <p id="a-line5-10" class="seat"><button>1층 A구역 5열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line6">
+                                            <p id="a-line6-1" class="seat-disabled"><button>1층 A구역 6열 1번좌석</button></p>
+                                            <p id="a-line6-2" class="close"><button tabindex="-1">1층 A구역 6열 2번좌석</button></p>
+                                            <p id="a-line6-3" class="seat"><button>1층 A구역 6열 3번좌석</button></p>
+                                            <p id="a-line6-4" class="seat-distancing"><button tabindex="-1">1층 A구역 6열 4번좌석</button></p>
+                                            <p id="a-line6-5" class="seat"><button>1층 A구역 6열 5번좌석</button></p>
+                                            <p id="a-line6-6" class="close"><button tabindex="-1">1층 A구역 6열 6번좌석</button></p>
+                                            <p id="a-line6-7" class="close"><button tabindex="-1">1층 A구역 6열 7번좌석</button></p>
+                                            <p id="a-line6-8" class="close"><button tabindex="-1">1층 A구역 6열 8번좌석</button></p>
+                                            <p id="a-line6-9" class="close"><button tabindex="-1">1층 A구역 6열 9번좌석</button></p>
+                                            <p id="a-line6-10" class="close"><button tabindex="-1">1층 A구역 6열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line7">
+                                            <p id="a-line7-1" class="seat-disabled"><button>1층 A구역 7열 1번좌석</button></p>
+                                            <p id="a-line7-2" class="close"><button tabindex="-1">1층 A구역 7열 2번좌석</button></p>
+                                            <p id="a-line7-3" class="seat"><button>1층 A구역 7열 3번좌석</button></p>
+                                            <p id="a-line7-4" class="seat-distancing"><button tabindex="-1">1층 A구역 7열 4번좌석</button></p>
+                                            <p id="a-line7-5" class="seat"><button>1층 A구역 7열 5번좌석</button></p>
+                                            <p id="a-line7-6" class="close"><button tabindex="-1">1층 A구역 7열 6번좌석</button></p>
+                                            <p id="a-line7-7" class="close"><button tabindex="-1">1층 A구역 7열 7번좌석</button></p>
+                                            <p id="a-line7-8" class="close"><button tabindex="-1">1층 A구역 7열 8번좌석</button></p>
+                                            <p id="a-line7-9" class="close"><button tabindex="-1">1층 A구역 7열 9번좌석</button></p>
+                                            <p id="a-line7-10" class="close"><button tabindex="-1">1층 A구역 7열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line8">
+                                            <p id="a-line8-1" class="seat-disabled"><button>1층 A구역 8열 1번좌석</button></p>
+                                            <p id="a-line8-2" class="close"><button tabindex="-1">1층 A구역 8열 2번좌석</button></p>
+                                            <p id="a-line8-3" class="seat"><button>1층 A구역 8열 3번좌석</button></p>
+                                            <p id="a-line8-4" class="seat-distancing"><button tabindex="-1">1층 A구역 8열 4번좌석</button></p>
+                                            <p id="a-line8-5" class="seat"><button>1층 A구역 8열 5번좌석</button></p>
+                                            <p id="a-line8-6" class="close"><button tabindex="-1">1층 A구역 8열 6번좌석</button></p>
+                                            <p id="a-line8-7" class="close"><button tabindex="-1">1층 A구역 8열 7번좌석</button></p>
+                                            <p id="a-line8-8" class="close"><button tabindex="-1">1층 A구역 8열 8번좌석</button></p>
+                                            <p id="a-line8-9" class="close"><button tabindex="-1">1층 A구역 8열 9번좌석</button></p>
+                                            <p id="a-line8-10" class="close"><button tabindex="-1">1층 A구역 8열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line9">
+                                            <p id="a-line9-1" class="seat-disabled"><button>1층 A구역 9열 1번좌석</button></p>
+                                            <p id="a-line9-2" class="close"><button tabindex="-1">1층 A구역 9열 2번좌석</button></p>
+                                            <p id="a-line9-3" class="seat"><button>1층 A구역 9열 3번좌석</button></p>
+                                            <p id="a-line9-4" class="seat-distancing"><button tabindex="-1">1층 A구역 9열 4번좌석</button></p>
+                                            <p id="a-line9-5" class="seat"><button>1층 A구역 9열 5번좌석</button></p>
+                                            <p id="a-line9-6" class="close"><button tabindex="-1">1층 A구역 9열 6번좌석</button></p>
+                                            <p id="a-line9-7" class="close"><button tabindex="-1">1층 A구역 9열 7번좌석</button></p>
+                                            <p id="a-line9-8" class="close"><button tabindex="-1">1층 A구역 9열 8번좌석</button></p>
+                                            <p id="a-line9-9" class="close"><button tabindex="-1">1층 A구역 9열 9번좌석</button></p>
+                                            <p id="a-line9-10" class="close"><button tabindex="-1">1층 A구역 9열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line10">
+                                            <p id="a-line10-1" class="seat-disabled"><button>1층 A구역 10열 1번좌석</button></p>
+                                            <p id="a-line10-2" class="close"><button tabindex="-1">1층 A구역 10열 2번좌석</button></p>
+                                            <p id="a-line10-3" class="seat"><button>1층 A구역 10열 3번좌석</button></p>
+                                            <p id="a-line10-4" class="seat-distancing"><button tabindex="-1">1층 A구역 10열 4번좌석</button></p>
+                                            <p id="a-line10-5" class="seat"><button>1층 A구역 10열 5번좌석</button></p>
+                                            <p id="a-line10-6" class="close"><button tabindex="-1">1층 A구역 10열 6번좌석</button></p>
+                                            <p id="a-line10-7" class="close"><button tabindex="-1">1층 A구역 10열 7번좌석</button></p>
+                                            <p id="a-line10-8" class="close"><button tabindex="-1">1층 A구역 10열 8번좌석</button></p>
+                                            <p id="a-line10-9" class="close"><button tabindex="-1">1층 A구역 10열 9번좌석</button></p>
+                                            <p id="a-line10-10" class="close"><button tabindex="-1">1층 A구역 10열 10번좌석</button></p>
+                                        </div>
+                                        <div class="line11">
+                                            <p id="a-line11-1" class="seat-disabled x2"><button>1층 A구역 11열 1번좌석</button></p>
+                                            <p id="a-line11-3" class="seat"><button>1층 A구역 11열 3번좌석</button></p>
+                                            <p id="a-line11-4" class="seat-distancing"><button tabindex="-1">1층 A구역 11열 4번좌석</button></p>
+                                            <p id="a-line11-5" class="seat"><button>1층 A구역 11열 5번좌석</button></p>
+                                            <p id="a-line11-6" class="close"><button tabindex="-1">1층 A구역 11열 6번좌석</button></p>
+                                            <p id="a-line11-7" class="close"><button tabindex="-1">1층 A구역 11열 7번좌석</button></p>
+                                            <p id="a-line11-8" class="close"><button tabindex="-1">1층 A구역 11열 8번좌석</button></p>
+                                            <p id="a-line11-9" class="close"><button tabindex="-1">1층 A구역 11열 9번좌석</button></p>
+                                            <p id="a-line11-10" class="close"><button tabindex="-1">1층 A구역 11열 10번좌석</button></p>
+                                        </div>
+
+                                    </div>
+
+                                    
+
+                                </div>
+
+            
+            
+                                </div>
+
+
+                            <h5>선택좌석 <small>결제까지 완료되어야 ... 됩니다.</small></h5>
+
+                            <div class="checked-seat">
+                                <div class="type">
+                                    <h6>R석 <small>선택 : <strong>5</strong>매</small></h6>
+                                    <p>106,000원</p>
+                                </div>
+                                <ul>
+                                    <li>
+                                        1층 A구역 2번
+
+                                        <button>삭제</button>
+                                    </li>
+                                    <li>
+                                        1층 A구역 3번
+
+                                        <button>삭제</button>
+                                    </li>
+                                    <li>
+                                        1층 A구역 4번
+
+                                        <button>삭제</button>
+                                    </li>
+                                    <li>
+                                        1층 A구역 5번
+
+                                        <button>삭제</button>
+                                    </li>
+                                    <li>
+                                        1층 A구역 8번
+
+                                        <button>삭제</button>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="checked-seat">
+                                <div class="type">
+                                    <h6>S석 <small>선택 : <strong>1</strong>매</small></h6>
+                                    <p>106,000원</p>
+                                </div>
+                                <ul>
+                                    <li>
+                                        2층 H구역 2번
+
+                                        <button>삭제</button>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="total">
+                        <h5>결제예정금액</h5>
+
+                        <p>
+                            <strong>5,000</strong>
+                            원
+                        </p>
+                    </div>
+
+
+
+
+                    <div class="button-set">
+                        <button class="sub">취소</button>
+                        <button>다음 ></button>
+
+                        <!--
+                        옵션선택 완료시 on 클래스명
+                        <button class="on">다음 ></button>
+
+                        -->
+                    </div>
+                </div>
+                
+
+            </section>
+
+
+
+        </div> 
+        <!-- E:mainContent -->
+
+    <div class="shadow"></div>
+    <!-- S:footer -->
+    <footer id="footer">
+        <div class="container">
+
+            <div class="customer">
+                <p>공연장 대관문의 <strong>064-710-7632</strong></p>
+                <p>전시실 대관문의 <strong>064-710-7633</strong></p>
+            </div>
+
+            <ul class="footer-link">
+                <li>
+                    <a href="">개인정보처리방침</a>
+                </li>
+                <li>
+                    <a href="">저작권보호정책</a>
+                </li>
+                <li>
+                    <a href="">영상정보처리기기운영관리방침</a>
+                </li>
+
+            </ul>
+
+            <address>
+                <p>(우)63270 제주특별자치도 제주시 동광로 69 (일도이동) </p>
+                <p>운영과 (064)710-7605, 공연기획과 (064)710-7641 / </p>
+                <p>Fax (064)710-7609</p>
+                <p class="copyright">Copright(c) 제주특별자치도 문화예술진흥원, All Rights Reserved.</p>
+            </address>
+
+
+
+
+
+        </div>
+    </footer>
+    <!-- E:footer -->
+
+
+
+    </body>
+
+</html>
