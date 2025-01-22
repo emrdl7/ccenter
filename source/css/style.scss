@@ -145,14 +145,51 @@ body {
   
 
   nav#main-menu {
+    position:relative;
     height:58px;
     background:#F2F6F8;
     text-align:center;
     font-size:0;
+    white-space:nowrap;
+    overflow-x:auto;
+    padding:0 20px;
 
     @media (min-width: $screen-size-pc) {
       height:66px;
     }
+
+    &::before {
+      content:"";
+      display:block;
+      position:fixed;
+      left:0;
+      top:0;
+      bottom:0;
+      width:30px;
+
+      @include gradient($to:90deg, $startColor:rgba(0,0,0,0.5), $ingColor: rgba(0,0,0,0.25), $endColor: rgba(0,0,0,0));
+
+      @media (min-width: $screen-size-pc) {
+        display:none;
+      }
+    }
+
+    &::after {
+      content:"";
+      display:block;
+      position:fixed;
+      right:0;
+      top:0;
+      bottom:0;
+      width:30px;
+
+      @include gradient($to:90deg, $startColor:rgba(0,0,0,0), $ingColor: rgba(0,0,0,0.25), $endColor: rgba(0,0,0,0.5));
+
+      @media (min-width: $screen-size-pc) {
+        display:none;
+      }
+    }
+
 
     a {
       display:inline-block;
@@ -177,6 +214,18 @@ body {
         border-color:#13274A;
         @include drop-shadow($x:0,$y: 3px, $blur: 6px, $spread: 0, $alpha: 0.15);
         color:#fff;
+      }
+
+      &.blank {
+        color:#818CF2;
+        padding-left:28px;
+        background: url("data:image/svg+xml,%3Csvg id='그룹_1697' data-name='그룹 1697' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath id='패스_21516' data-name='패스 21516' d='M0,0H24V24H0Z' fill='none'/%3E%3Cpath id='패스_21517' data-name='패스 21517' d='M19,19H5V5h7V3H5A2,2,0,0,0,3,5V19a2,2,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V12H19ZM14,3V5h3.59L7.76,14.83l1.41,1.41L19,6.41V10h2V3Z' fill='%23818cf2'/%3E%3C/svg%3E%0A") no-repeat left center / auto 22px;
+
+        @media (min-width: $screen-size-pc) {
+          background-position:left 10px center;
+          background-size:auto 24px;
+          margin-left:24px;
+        }
       }
     }
   }

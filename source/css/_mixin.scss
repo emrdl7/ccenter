@@ -78,7 +78,7 @@
     opacity: $opacity;
 }
 
-@mixin gradient($to:top, $startColor:#eee, $ingColor: #eee, $endColor: white) {
+@mixin gradient($to:to top, $startColor:#eee, $ingColor: #eee, $endColor: white) {
     background-color: $startColor;
     background: linear-gradient($to, $startColor, $ingColor, $endColor);
 }
