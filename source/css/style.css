@@ -2059,6 +2059,7 @@ body div.head-tools {
 }
 body div.head-tools div.container {
   text-align: right;
+  padding: 0 15px;
 }
 body div.head-tools div.container a {
   color: #fff;
